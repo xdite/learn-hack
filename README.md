@@ -1,6 +1,6 @@
 
-* [前言](https://www.notion.so/fd3059ed064a46e280ed6a82396a643a)
-* [第一章 提升學習的關鍵能力到底是什麼？](https://www.notion.so/9929ac1f237c4e77b98cab9e1e2b909b)
+* [前言](00.md)
+* [第一章 提升學習的關鍵能力到底是什麼？](01.md)
 * [第二章 建立正確的目標與學習流程（但逆著來）](https://www.notion.so/667cb1bcd25941878b0ee844066ddf1c)
 * [第三章 切西瓜從中間學起](https://www.notion.so/be07a290f1db4c048c8734064ee25dbb)
 * [第四章 變成高手究竟需要多久時間？](https://www.notion.so/38755a3a47ec4e8aac225be99256846f)
