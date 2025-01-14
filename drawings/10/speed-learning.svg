@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">
+        鬼速學習法時間壓縮示意圖
+    </text>
+
+    <!-- 左側時間軸標籤 -->
+    <g transform="translate(50,80)">
+        <text x="0" y="20" font-size="14">專家</text>
+        <text x="0" y="100" font-size="14">精通者</text>
+        <text x="0" y="180" font-size="14">勝任者</text>
+        <text x="0" y="260" font-size="14">高級新手</text>
+    </g>
+
+    <!-- 自然學習時間軸 -->
+    <g transform="translate(120,80)">
+        <text x="0" y="-10" font-size="16" fill="#2c3e50">自然學習時間</text>
+        <rect x="0" y="0" width="250" height="40" fill="#2c3e50" opacity="0.8"/>
+        <text x="10" y="25" fill="white" font-size="14">5年</text>
+        
+        <rect x="0" y="80" width="200" height="40" fill="#34495e" opacity="0.8"/>
+        <text x="10" y="105" fill="white" font-size="14">2年</text>
+        
+        <rect x="0" y="160" width="150" height="40" fill="#2980b9" opacity="0.8"/>
+        <text x="10" y="185" fill="white" font-size="14">8個月</text>
+        
+        <rect x="0" y="240" width="100" height="40" fill="#3498db" opacity="0.8"/>
+        <text x="10" y="265" fill="white" font-size="14">90天</text>
+    </g>
+
+    <!-- 箭頭 -->
+    <g transform="translate(400,160)">
+        <path d="M0,0 L60,0 M50,-10 L60,0 L50,10" fill="none" stroke="#333" stroke-width="2"/>
+        <text x="30" y="-15" text-anchor="middle" font-size="14">壓縮</text>
+    </g>
+
+    <!-- 鬼速學習時間軸 -->
+    <g transform="translate(500,80)">
+        <text x="0" y="-10" font-size="16" fill="#e74c3c">鬼速學習時間</text>
+        <rect x="0" y="0" width="125" height="40" fill="#e74c3c" opacity="0.8"/>
+        <text x="10" y="25" fill="white" font-size="14">2年</text>
+        
+        <rect x="0" y="80" width="100" height="40" fill="#c0392b" opacity="0.8"/>
+        <text x="10" y="105" fill="white" font-size="14">8個月</text>
+        
+        <rect x="0" y="160" width="75" height="40" fill="#d35400" opacity="0.8"/>
+        <text x="10" y="185" fill="white" font-size="14">90天</text>
+        
+        <rect x="0" y="240" width="50" height="40" fill="#e67e22" opacity="0.8"/>
+        <text x="10" y="265" fill="white" font-size="14">30天</text>
+    </g>
+
+    <!-- 底部說明 -->
+    <text x="400" y="460" text-anchor="middle" font-size="14" fill="#666">
+        透過系統化學習方法，可大幅縮短達到各階段所需時間
+    </text>
+</svg> 

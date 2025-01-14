@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">兩種學習方式的比較</text>
+    
+    <!-- 左側：自然學習 -->
+    <g transform="translate(100,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#2ecc71">自然學習</text>
+        
+        <!-- 笑臉圖示 -->
+        <circle cx="150" cy="80" r="30" fill="#2ecc71" opacity="0.2"/>
+        <circle cx="135" cy="70" r="3" fill="#2ecc71"/>
+        <circle cx="165" cy="70" r="3" fill="#2ecc71"/>
+        <path d="M130,85 Q150,100 170,85" fill="none" stroke="#2ecc71" stroke-width="2"/>
+        
+        <!-- 螺旋上升曲線 -->
+        <path d="M100,200 Q150,180 130,150 Q110,120 150,100 Q190,80 170,50" 
+              fill="none" stroke="#2ecc71" stroke-width="2"/>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(50,150)">
+            <circle cx="0" cy="30" r="4" fill="#2ecc71"/>
+            <text x="15" y="35" font-size="14" fill="#333333">興趣驅動</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#2ecc71"/>
+            <text x="15" y="65" font-size="14" fill="#333333">即時回饋</text>
+            
+            <circle cx="0" cy="90" r="4" fill="#2ecc71"/>
+            <text x="15" y="95" font-size="14" fill="#333333">自然成長</text>
+        </g>
+    </g>
+    
+    <!-- 右側：刻意學習 -->
+    <g transform="translate(450,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">刻意學習</text>
+        
+        <!-- 壓力表情 -->
+        <circle cx="150" cy="80" r="30" fill="#e74c3c" opacity="0.2"/>
+        <circle cx="135" cy="70" r="3" fill="#e74c3c"/>
+        <circle cx="165" cy="70" r="3" fill="#e74c3c"/>
+        <path d="M130,90 Q150,80 170,90" fill="none" stroke="#e74c3c" stroke-width="2"/>
+        
+        <!-- 階梯進度 -->
+        <path d="M100,200 L130,200 L130,180 L160,180 L160,160 L190,160 L190,140" 
+              fill="none" stroke="#e74c3c" stroke-width="2"/>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(50,150)">
+            <circle cx="0" cy="30" r="4" fill="#e74c3c"/>
+            <text x="15" y="35" font-size="14" fill="#333333">考試導向</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#e74c3c"/>
+            <text x="15" y="65" font-size="14" fill="#333333">標準答案</text>
+            
+            <circle cx="0" cy="90" r="4" fill="#e74c3c"/>
+            <text x="15" y="95" font-size="14" fill="#333333">死記硬背</text>
+        </g>
+    </g>
+    
+    <!-- 分隔線 -->
+    <line x1="400" y1="60" x2="400" y2="350" stroke="#cccccc" stroke-width="1" stroke-dasharray="5,5"/>
+</svg> 

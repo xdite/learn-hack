@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">不同遊戲需要不同的策略</text>
+    
+    <!-- 左側：錯誤示範 -->
+    <g transform="translate(50,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">錯誤的策略應用</text>
+        
+        <!-- 遊戲圖示 -->
+        <g transform="translate(50,50)">
+            <!-- 回合制遊戲介面 -->
+            <rect x="0" y="0" width="200" height="120" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+            <text x="100" y="30" text-anchor="middle" font-size="14" fill="#e74c3c">即時戰略遊戲</text>
+            
+            <!-- 錯誤的策略符號 -->
+            <g transform="translate(20,50)">
+                <rect x="0" y="0" width="40" height="40" fill="#e74c3c" opacity="0.2"/>
+                <text x="20" y="25" text-anchor="middle" font-size="12" fill="#e74c3c">回合</text>
+                <text x="20" y="40" text-anchor="middle" font-size="12" fill="#e74c3c">策略</text>
+            </g>
+            
+            <!-- 錯誤標記 -->
+            <path d="M180,60 L200,80 M200,60 L180,80" stroke="#e74c3c" stroke-width="2"/>
+        </g>
+        
+        <!-- 結果說明 -->
+        <g transform="translate(30,200)">
+            <circle cx="0" cy="0" r="4" fill="#e74c3c"/>
+            <text x="15" y="5" font-size="14" fill="#333333">策略不匹配</text>
+            
+            <circle cx="0" cy="30" r="4" fill="#e74c3c"/>
+            <text x="15" y="35" font-size="14" fill="#333333">效率低下</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#e74c3c"/>
+            <text x="15" y="65" font-size="14" fill="#333333">失敗率高</text>
+        </g>
+    </g>
+    
+    <!-- 右側：正確示範 -->
+    <g transform="translate(450,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#27ae60">正確的策略應用</text>
+        
+        <!-- 遊戲圖示 -->
+        <g transform="translate(50,50)">
+            <!-- 即時戰略遊戲介面 -->
+            <rect x="0" y="0" width="200" height="120" rx="10" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+            <text x="100" y="30" text-anchor="middle" font-size="14" fill="#27ae60">即時戰略遊戲</text>
+            
+            <!-- 正確的策略符號 -->
+            <g transform="translate(20,50)">
+                <path d="M0,20 L40,20 M20,0 L20,40" stroke="#27ae60" stroke-width="2"/>
+                <text x="20" y="65" text-anchor="middle" font-size="12" fill="#27ae60">即時反應</text>
+            </g>
+            
+            <!-- 正確標記 -->
+            <path d="M170,60 L180,80 L200,40" stroke="#27ae60" stroke-width="2" fill="none"/>
+        </g>
+        
+        <!-- 結果說明 -->
+        <g transform="translate(30,200)">
+            <circle cx="0" cy="0" r="4" fill="#27ae60"/>
+            <text x="15" y="5" font-size="14" fill="#333333">策略匹配</text>
+            
+            <circle cx="0" cy="30" r="4" fill="#27ae60"/>
+            <text x="15" y="35" font-size="14" fill="#333333">效率提升</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#27ae60"/>
+            <text x="15" y="65" font-size="14" fill="#333333">成功率高</text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="350" text-anchor="middle" font-size="16" fill="#666666">認清遊戲類型，採用正確策略，是成功的關鍵</text>
+</svg> 

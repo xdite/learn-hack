@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">
+        鬼速學習成本與時間關係
+    </text>
+
+    <!-- 表格標題 -->
+    <g transform="translate(100,80)">
+        <text x="0" y="30" font-size="16" font-weight="bold">階段</text>
+        <text x="150" y="30" font-size="16" font-weight="bold">所需書籍</text>
+        <text x="300" y="30" font-size="16" font-weight="bold">問題數量</text>
+        <text x="450" y="30" font-size="16" font-weight="bold">自學時間</text>
+        <text x="600" y="30" font-size="16" font-weight="bold">加速方案</text>
+    </g>
+
+    <!-- 分隔線 -->
+    <line x1="80" y1="120" x2="720" y2="120" stroke="#ddd" stroke-width="2"/>
+
+    <!-- 高級新手行 -->
+    <g transform="translate(100,140)">
+        <text x="0" y="0" font-size="14">高級新手</text>
+        <text x="150" y="0" font-size="14">27本</text>
+        <text x="300" y="0" font-size="14">81個問題</text>
+        <text x="450" y="0" font-size="14">30天</text>
+        <text x="600" y="0" font-size="14">1天課程</text>
+        
+        <!-- 成本標註 -->
+        <text x="150" y="20" font-size="12" fill="#666">8,100元</text>
+        <text x="600" y="20" font-size="12" fill="#666">8,100元內</text>
+    </g>
+
+    <!-- 勝任者行 -->
+    <g transform="translate(100,200)">
+        <text x="0" y="0" font-size="14">勝任者</text>
+        <text x="150" y="0" font-size="14">81本</text>
+        <text x="300" y="0" font-size="14">243個問題</text>
+        <text x="450" y="0" font-size="14">90天</text>
+        <text x="600" y="0" font-size="14">密集訓練</text>
+    </g>
+
+    <!-- 精通者行 -->
+    <g transform="translate(100,260)">
+        <text x="0" y="0" font-size="14">精通者</text>
+        <text x="150" y="0" font-size="14">243本</text>
+        <text x="300" y="0" font-size="14">729個問題</text>
+        <text x="450" y="0" font-size="14">8個月</text>
+        <text x="600" y="0" font-size="14">環境沉浸</text>
+    </g>
+
+    <!-- 專家行 -->
+    <g transform="translate(100,320)">
+        <text x="0" y="0" font-size="14">專家</text>
+        <text x="150" y="0" font-size="14">729本</text>
+        <text x="300" y="0" font-size="14">2187個問題</text>
+        <text x="450" y="0" font-size="14">2年</text>
+        <text x="600" y="0" font-size="14">持續精進</text>
+    </g>
+
+    <!-- 說明區塊 -->
+    <g transform="translate(100,400)">
+        <rect x="0" y="0" width="600" height="60" fill="#f8f9fa" rx="5"/>
+        <text x="20" y="25" font-size="14" fill="#666">💡 重點提示：</text>
+        <text x="20" y="45" font-size="14" fill="#666">1. 一本書平均可解決3個問題，不需要完整讀完</text>
+        <text x="320" y="45" font-size="14" fill="#666">2. 透過系統化學習可大幅縮短時間</text>
+    </g>
+</svg> 

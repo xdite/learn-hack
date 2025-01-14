@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">人類學習的三大核心需求</text>
+    
+    <!-- 三個圓形區域 -->
+    <g transform="translate(400,300)">
+        <!-- 注意力時間限制 -->
+        <g transform="translate(-200,0)">
+            <circle cx="0" cy="0" r="120" fill="#3498db" opacity="0.1"/>
+            <text x="0" y="-60" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">注意力時限</text>
+            
+            <!-- 時鐘圖示 -->
+            <g transform="translate(0,-20)">
+                <circle cx="0" cy="0" r="30" fill="#3498db" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-size="24">⏰</text>
+            </g>
+            
+            <!-- 時間列表 -->
+            <g transform="translate(-80,30)">
+                <text font-size="14" fill="#666">
+                    <tspan x="0" dy="0">• 90秒 影片</tspan>
+                    <tspan x="0" dy="25">• 3-5分鐘 遊戲回合</tspan>
+                    <tspan x="0" dy="25">• 15分鐘 短期記憶</tspan>
+                    <tspan x="0" dy="25">• 45分鐘 學習上限</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- 確定性需求 -->
+        <g transform="translate(0,-150)">
+            <circle cx="0" cy="0" r="120" fill="#2ecc71" opacity="0.1"/>
+            <text x="0" y="-60" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">確定性需求</text>
+            
+            <!-- 確定性圖示 -->
+            <g transform="translate(0,-20)">
+                <circle cx="0" cy="0" r="30" fill="#2ecc71" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-size="24">✓</text>
+            </g>
+            
+            <!-- 確定性列表 -->
+            <g transform="translate(-80,30)">
+                <text font-size="14" fill="#666">
+                    <tspan x="0" dy="0">• 明確的目標</tspan>
+                    <tspan x="0" dy="25">• 可預期的結果</tspan>
+                    <tspan x="0" dy="25">• 即時的回饋</tspan>
+                    <tspan x="0" dy="25">• 可見的進度</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- 快速達成 -->
+        <g transform="translate(200,0)">
+            <circle cx="0" cy="0" r="120" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="-60" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">快速達成</text>
+            
+            <!-- 速度圖示 -->
+            <g transform="translate(0,-20)">
+                <circle cx="0" cy="0" r="30" fill="#e74c3c" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-size="24">🚀</text>
+            </g>
+            
+            <!-- 速度列表 -->
+            <g transform="translate(-80,30)">
+                <text font-size="14" fill="#666">
+                    <tspan x="0" dy="0">• 小目標切分</tspan>
+                    <tspan x="0" dy="25">• 快速完成感</tspan>
+                    <tspan x="0" dy="25">• 持續的成就感</tspan>
+                    <tspan x="0" dy="25">• 循序漸進</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">人類天生追求短時間內的確定性成就</tspan>
+            <tspan x="0" dy="25">學習設計應該順應而非對抗這些特性</tspan>
+        </text>
+    </g>
+</svg> 

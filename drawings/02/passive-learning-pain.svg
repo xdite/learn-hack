@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">被動式「帶練」的困境</text>
+    
+    <!-- 中央場景 -->
+    <g transform="translate(200,80)">
+        <!-- 迷宮背景 -->
+        <path d="M0,0 L400,0 L400,240 L0,240 Z" fill="#f5f6fa"/>
+        
+        <!-- 迷宮路徑 -->
+        <path d="M50,40 C100,40 100,200 200,200 S300,40 350,40" 
+              fill="none" stroke="#e74c3c" stroke-width="3" stroke-dasharray="5,5"/>
+        
+        <!-- 學生角色 -->
+        <g transform="translate(180,190)">
+            <!-- 身體 -->
+            <circle cx="0" cy="0" r="15" fill="#e74c3c" opacity="0.7"/>
+            <!-- 困惑表情 -->
+            <path d="M-5,-5 L-2,-5 M2,-5 L5,-5" stroke="#fff" stroke-width="2"/>
+            <path d="M-3,5 C-1,3 1,3 3,5" stroke="#fff" stroke-width="2" fill="none"/>
+            <!-- 問號 -->
+            <text x="15" y="-10" font-size="20" fill="#e74c3c">?</text>
+            <text x="-25" y="-10" font-size="20" fill="#e74c3c">?</text>
+        </g>
+        
+        <!-- 老師角色 -->
+        <g transform="translate(220,190)">
+            <!-- 身體 -->
+            <circle cx="0" cy="0" r="15" fill="#3498db" opacity="0.7"/>
+            <!-- 嚴肅表情 -->
+            <path d="M-5,-5 L-2,-5 M2,-5 L5,-5" stroke="#fff" stroke-width="2"/>
+            <path d="M-5,5 L5,5" stroke="#fff" stroke-width="2"/>
+        </g>
+        
+        <!-- 拉扯的線 -->
+        <path d="M195,190 L205,190" stroke="#333" stroke-width="2"/>
+    </g>
+    
+    <!-- 困境說明 -->
+    <g transform="translate(200,340)">
+        <g transform="translate(0,0)">
+            <circle cx="0" cy="0" r="4" fill="#e74c3c"/>
+            <text x="15" y="5" font-size="14" fill="#333333">不知道為什麼要學</text>
+        </g>
+        
+        <g transform="translate(200,0)">
+            <circle cx="0" cy="0" r="4" fill="#e74c3c"/>
+            <text x="15" y="5" font-size="14" fill="#333333">看不到目標</text>
+        </g>
+        
+        <g transform="translate(400,0)">
+            <circle cx="0" cy="0" r="4" fill="#e74c3c"/>
+            <text x="15" y="5" font-size="14" fill="#333333">無法感受進步</text>
+        </g>
+    </g>
+    
+    <!-- 旁白提示 -->
+    <g transform="translate(50,120)">
+        <text font-size="14" fill="#666666">
+            <tspan x="0" dy="0">被動跟著跑的結果：</tspan>
+            <tspan x="0" dy="25">• 完全不知道方向</tspan>
+            <tspan x="0" dy="25">• 沒有自主權</tspan>
+            <tspan x="0" dy="25">• 提不起勁</tspan>
+            <tspan x="0" dy="25">• 容易想睡覺</tspan>
+        </text>
+    </g>
+</svg> 

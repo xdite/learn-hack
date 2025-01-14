@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">自學的本質就是自教</text>
+    
+    <!-- 中央人物 -->
+    <g transform="translate(400,250)">
+        <!-- 大腦外框 -->
+        <path d="M0,-80 C60,-80 80,-40 80,0 C80,40 60,80 0,80 C-60,80 -80,40 -80,0 C-80,-40 -60,-80 0,-80"
+              fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+              
+        <!-- 內部分隔線 -->
+        <line x1="-80" y1="0" x2="80" y2="0" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5"/>
+        
+        <!-- 上半部：學習者角色 -->
+        <g transform="translate(0,-40)">
+            <circle cx="0" cy="0" r="25" fill="#f1c40f" opacity="0.2"/>
+            <text x="0" y="5" text-anchor="middle" font-size="12">學習者</text>
+        </g>
+        
+        <!-- 下半部：教師角色 -->
+        <g transform="translate(0,40)">
+            <circle cx="0" cy="0" r="25" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="5" text-anchor="middle" font-size="12">教師</text>
+        </g>
+    </g>
+    
+    <!-- 左側：學習者職責 -->
+    <g transform="translate(150,250)">
+        <rect x="-100" y="-120" width="200" height="240" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="-90" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">學習者職責</text>
+        <g transform="translate(-80,-60)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">✦ 提出問題</tspan>
+                <tspan x="0" dy="30">✦ 尋找資源</tspan>
+                <tspan x="0" dy="30">✦ 實踐練習</tspan>
+                <tspan x="0" dy="30">✦ 記錄成果</tspan>
+                <tspan x="0" dy="30">✦ 反饋學習效果</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 右側：教師職責 -->
+    <g transform="translate(650,250)">
+        <rect x="-100" y="-120" width="200" height="240" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="-90" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">教師職責</text>
+        <g transform="translate(-80,-60)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">✦ 設計學習路徑</tspan>
+                <tspan x="0" dy="30">✦ 分解學習目標</tspan>
+                <tspan x="0" dy="30">✦ 安排練習任務</tspan>
+                <tspan x="0" dy="30">✦ 評估學習效果</tspan>
+                <tspan x="0" dy="30">✦ 調整教學方法</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 循環箭頭 -->
+    <g transform="translate(400,250)">
+        <!-- 左側循環 -->
+        <path d="M-150,-50 C-120,-50 -120,50 -150,50" 
+              fill="none" stroke="#3498db" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <!-- 右側循環 -->
+        <path d="M150,50 C120,50 120,-50 150,-50" 
+              fill="none" stroke="#2ecc71" stroke-width="2" marker-end="url(#arrowhead)"/>
+    </g>
+    
+    <!-- 箭頭標記定義 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">在自學過程中，你同時扮演學習者與教師兩種角色</tspan>
+            <tspan x="0" dy="25">透過不斷調整與反饋，建立最適合自己的學習系統</tspan>
+        </text>
+    </g>
+</svg> 

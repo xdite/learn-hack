@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">動物森友會的遊戲機制總覽</text>
+    
+    <!-- 三大機制區塊 -->
+    <g transform="translate(400,320)">
+        <!-- 連接線 -->
+        <path d="M-300,-200 L300,-200 L300,200 L-300,200 Z" stroke="#ddd" stroke-width="2" fill="none"/>
+        
+        <!-- 引導機制 -->
+        <g transform="translate(0,-200)">
+            <rect x="-280" y="-50" width="560" height="100" rx="10" fill="#3498db" opacity="0.1"/>
+            <text x="0" y="-25" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">引導機制</text>
+            <text x="-200" y="10" text-anchor="middle" font-size="14" fill="#666">
+                <tspan x="-200" dy="0">• 前五天基礎教學</tspan>
+                <tspan x="0" dy="0">• 循序漸進解鎖</tspan>
+                <tspan x="200" dy="0">• 建立遊戲習慣</tspan>
+            </text>
+        </g>
+        
+        <!-- 限制機制 -->
+        <g transform="translate(-300,0)">
+            <rect x="-120" y="-120" width="240" height="240" rx="10" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="-90" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">限制機制</text>
+            <text x="0" y="-50" text-anchor="middle" font-size="14" fill="#666">
+                <tspan x="0" dy="0">• 里程點數限制</tspan>
+                <tspan x="0" dy="25">• 商店營業時間</tspan>
+                <tspan x="0" dy="25">• 建設等待時間</tspan>
+                <tspan x="0" dy="25">• 價格波動機制</tspan>
+                <tspan x="0" dy="25">• 防止過度遊玩</tspan>
+            </text>
+        </g>
+        
+        <!-- 激勵機制 -->
+        <g transform="translate(300,0)">
+            <rect x="-120" y="-120" width="240" height="240" rx="10" fill="#2ecc71" opacity="0.1"/>
+            <text x="0" y="-90" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">激勵機制</text>
+            <text x="0" y="-50" text-anchor="middle" font-size="14" fill="#666">
+                <tspan x="0" dy="0">• 點數獎勵系統</tspan>
+                <tspan x="0" dy="25">• 收集圖鑑機制</tspan>
+                <tspan x="0" dy="25">• 特殊節日活動</tspan>
+                <tspan x="0" dy="25">• 島嶼創造系統</tspan>
+                <tspan x="0" dy="25">• 社交展示動力</tspan>
+            </text>
+        </g>
+        
+        <!-- 中央說明 -->
+        <g transform="translate(0,0)">
+            <circle cx="0" cy="0" r="60" fill="#f8f9fa"/>
+            <text x="0" y="0" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">
+                <tspan x="0" dy="-10">持續性</tspan>
+                <tspan x="0" dy="25">遊戲體驗</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">三大機制相互配合，創造持久的遊戲動力</tspan>
+            <tspan x="0" dy="25">平衡遊戲節奏，讓玩家保持長期投入的興趣</tspan>
+        </text>
+    </g>
+</svg> 

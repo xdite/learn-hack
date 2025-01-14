@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">艾賓浩斯遺忘曲線</text>
+    
+    <!-- 座標系統 -->
+    <g transform="translate(100,400)">
+        <!-- X軸 -->
+        <line x1="0" y1="0" x2="600" y2="0" stroke="#333" stroke-width="2"/>
+        <!-- Y軸 -->
+        <line x1="0" y1="0" x2="0" y2="-300" stroke="#333" stroke-width="2"/>
+        
+        <!-- X軸刻度 -->
+        <g>
+            <line x1="0" y1="5" x2="0" y2="-5" stroke="#333" stroke-width="2"/>
+            <line x1="120" y1="5" x2="120" y2="-5" stroke="#333" stroke-width="2"/>
+            <line x1="240" y1="5" x2="240" y2="-5" stroke="#333" stroke-width="2"/>
+            <line x1="360" y1="5" x2="360" y2="-5" stroke="#333" stroke-width="2"/>
+            <line x1="480" y1="5" x2="480" y2="-5" stroke="#333" stroke-width="2"/>
+            <line x1="600" y1="5" x2="600" y2="-5" stroke="#333" stroke-width="2"/>
+            
+            <!-- X軸標籤 -->
+            <text x="0" y="25" text-anchor="middle" font-size="12" fill="#666">0</text>
+            <text x="120" y="25" text-anchor="middle" font-size="12" fill="#666">20分鐘</text>
+            <text x="240" y="25" text-anchor="middle" font-size="12" fill="#666">1小時</text>
+            <text x="360" y="25" text-anchor="middle" font-size="12" fill="#666">1天</text>
+            <text x="480" y="25" text-anchor="middle" font-size="12" fill="#666">1週</text>
+            <text x="600" y="25" text-anchor="middle" font-size="12" fill="#666">1個月</text>
+        </g>
+        
+        <!-- Y軸刻度 -->
+        <g>
+            <line x1="-5" y1="0" x2="5" y2="0" stroke="#333" stroke-width="2"/>
+            <line x1="-5" y1="-75" x2="5" y2="-75" stroke="#333" stroke-width="2"/>
+            <line x1="-5" y1="-150" x2="5" y2="-150" stroke="#333" stroke-width="2"/>
+            <line x1="-5" y1="-225" x2="5" y2="-225" stroke="#333" stroke-width="2"/>
+            <line x1="-5" y1="-300" x2="5" y2="-300" stroke="#333" stroke-width="2"/>
+            
+            <!-- Y軸標籤 -->
+            <text x="-15" y="0" text-anchor="end" font-size="12" fill="#666">0%</text>
+            <text x="-15" y="-75" text-anchor="end" font-size="12" fill="#666">25%</text>
+            <text x="-15" y="-150" text-anchor="end" font-size="12" fill="#666">50%</text>
+            <text x="-15" y="-225" text-anchor="end" font-size="12" fill="#666">75%</text>
+            <text x="-15" y="-300" text-anchor="end" font-size="12" fill="#666">100%</text>
+        </g>
+        
+        <!-- 遺忘曲線 -->
+        <path d="M0,-300 C50,-200 120,-150 240,-120 S480,-90 600,-80" 
+              stroke="#e74c3c" stroke-width="3" fill="none"/>
+        
+        <!-- 記憶保留區域 -->
+        <path d="M0,-300 C50,-200 120,-150 240,-120 S480,-90 600,-80 L600,0 L0,0 Z" 
+              fill="#e74c3c" opacity="0.1"/>
+        
+        <!-- 關鍵時間點標記 -->
+        <g>
+            <!-- 20分鐘 -->
+            <circle cx="120" cy="-174" r="5" fill="#e74c3c"/>
+            <text x="120" y="-190" text-anchor="middle" font-size="12" fill="#666">58%保留</text>
+            
+            <!-- 1小時 -->
+            <circle cx="240" cy="-132" r="5" fill="#e74c3c"/>
+            <text x="240" y="-148" text-anchor="middle" font-size="12" fill="#666">44%保留</text>
+            
+            <!-- 1天 -->
+            <circle cx="360" cy="-78" r="5" fill="#e74c3c"/>
+            <text x="360" y="-94" text-anchor="middle" font-size="12" fill="#666">26%保留</text>
+        </g>
+    </g>
+    
+    <!-- 右側說明 -->
+    <g transform="translate(720,200)">
+        <text font-size="14" fill="#333">
+            <tspan x="0" dy="0">關鍵時間點：</tspan>
+            <tspan x="0" dy="25">• 20分鐘：42%遺忘</tspan>
+            <tspan x="0" dy="25">• 1小時：56%遺忘</tspan>
+            <tspan x="0" dy="25">• 1天：74%遺忘</tspan>
+            <tspan x="0" dy="25">• 1週：77%遺忘</tspan>
+            <tspan x="0" dy="25">• 1個月：79%遺忘</tspan>
+        </text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666">
+        大腦的記憶在24小時內會快速衰退，需要及時複習鞏固
+    </text>
+</svg> 

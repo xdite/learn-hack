@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">心流與上癮的本質</text>
+    
+    <!-- 左側：心流 -->
+    <g transform="translate(200,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#3498db" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">心流</text>
+        
+        <!-- 循環圖 -->
+        <g transform="translate(0,-40)">
+            <!-- 循環箭頭 -->
+            <path d="M0,-40 A40,40 0 1,1 -34.6,20 L-20,12" 
+                  fill="none" stroke="#3498db" stroke-width="2"/>
+            
+            <!-- 步驟文字 -->
+            <g transform="translate(-60,-30)">
+                <text text-anchor="end" font-size="14" fill="#666">觸發</text>
+            </g>
+            <g transform="translate(60,0)">
+                <text text-anchor="start" font-size="14" fill="#666">行動</text>
+            </g>
+            <g transform="translate(-60,30)">
+                <text text-anchor="end" font-size="14" fill="#666">獎勵</text>
+            </g>
+        </g>
+        
+        <!-- 特點說明 -->
+        <g transform="translate(-120,80)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 全神貫注</tspan>
+                <tspan x="0" dy="25">• 時間飛逝</tspan>
+                <tspan x="0" dy="25">• 正向成長</tspan>
+                <tspan x="0" dy="25">• 被讚揚</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 右側：上癮 -->
+    <g transform="translate(600,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#e74c3c" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">上癮</text>
+        
+        <!-- 循環圖 -->
+        <g transform="translate(0,-40)">
+            <!-- 循環箭頭 -->
+            <path d="M0,-40 A40,40 0 1,1 -34.6,20 L-20,12" 
+                  fill="none" stroke="#e74c3c" stroke-width="2"/>
+            
+            <!-- 步驟文字 -->
+            <g transform="translate(-60,-30)">
+                <text text-anchor="end" font-size="14" fill="#666">觸發</text>
+            </g>
+            <g transform="translate(60,0)">
+                <text text-anchor="start" font-size="14" fill="#666">行動</text>
+            </g>
+            <g transform="translate(-60,30)">
+                <text text-anchor="end" font-size="14" fill="#666">變動獎勵</text>
+            </g>
+        </g>
+        
+        <!-- 特點說明 -->
+        <g transform="translate(-120,80)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 無法自拔</tspan>
+                <tspan x="0" dy="25">• 荒廢其他</tspan>
+                <tspan x="0" dy="25">• 偏科發展</tspan>
+                <tspan x="0" dy="25">• 被責備</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 中間對比箭頭 -->
+    <g transform="translate(400,250)">
+        <path d="M-50,0 L50,0 M30,-10 L50,0 L30,10" stroke="#333" stroke-width="2"/>
+        <text x="0" y="-15" text-anchor="middle" font-size="14" fill="#333">本質相同</text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666">
+        心流與上癮都是大腦獎賞系統的循環，差別在於社會評價
+    </text>
+</svg> 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">學習的座標軸</text>
+    
+    <!-- 中心圓形區域 -->
+    <g transform="translate(400,300)">
+        <!-- 外圈圓形 -->
+        <circle cx="0" cy="0" r="200" fill="#f8f9fa" stroke="#ddd" stroke-width="2"/>
+        
+        <!-- 內圈圓形 -->
+        <circle cx="0" cy="0" r="100" fill="#3498db" opacity="0.1"/>
+        
+        <!-- 座標軸 -->
+        <line x1="-200" y1="0" x2="200" y2="0" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <line x1="0" y1="200" x2="0" y2="-200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        
+        <!-- 軸標籤 -->
+        <text x="220" y="0" text-anchor="start" font-size="16" fill="#333">時間軸</text>
+        <text x="0" y="-220" text-anchor="middle" font-size="16" fill="#333">目標軸</text>
+        
+        <!-- 四個象限說明 -->
+        <g transform="translate(-140,-140)">
+            <rect x="-40" y="-30" width="80" height="60" rx="5" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+                <tspan x="0" dy="-5">長期目標</tspan>
+                <tspan x="0" dy="20">1年+</tspan>
+            </text>
+        </g>
+        
+        <g transform="translate(140,-140)">
+            <rect x="-40" y="-30" width="80" height="60" rx="5" fill="#f1c40f" opacity="0.1"/>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+                <tspan x="0" dy="-5">短期目標</tspan>
+                <tspan x="0" dy="20">1-3月</tspan>
+            </text>
+        </g>
+        
+        <g transform="translate(-140,140)">
+            <rect x="-40" y="-30" width="80" height="60" rx="5" fill="#2ecc71" opacity="0.1"/>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+                <tspan x="0" dy="-5">即時目標</tspan>
+                <tspan x="0" dy="20">5-10分鐘</tspan>
+            </text>
+        </g>
+        
+        <g transform="translate(140,140)">
+            <rect x="-40" y="-30" width="80" height="60" rx="5" fill="#9b59b6" opacity="0.1"/>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+                <tspan x="0" dy="-5">中期目標</tspan>
+                <tspan x="0" dy="20">1小時</tspan>
+            </text>
+        </g>
+        
+        <!-- 中心說明 -->
+        <g transform="translate(0,0)">
+            <text x="0" y="0" text-anchor="middle" font-size="16" fill="#333">
+                <tspan x="0" dy="-10">當下位置</tspan>
+                <tspan x="0" dy="25">我在哪裡？</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 箭頭標記定義 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">清楚自己在學習旅程中的位置</tspan>
+            <tspan x="0" dy="25">明確知道短期與長期目標，以及達成所需時間</tspan>
+        </text>
+    </g>
+</svg> 

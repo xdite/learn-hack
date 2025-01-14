@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">記憶消失的兩種方式</text>
+    
+    <!-- 左側：資訊沖刷 -->
+    <g transform="translate(200,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#e74c3c" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">資訊沖刷</text>
+        
+        <!-- 暫存區示意 -->
+        <g transform="translate(0,-40)">
+            <!-- 容器 -->
+            <rect x="-80" y="-40" width="160" height="120" rx="10" fill="none" stroke="#e74c3c" stroke-width="2"/>
+            
+            <!-- 資訊流動畫 -->
+            <g>
+                <!-- 新資訊進入 -->
+                <text x="0" y="-30" text-anchor="middle" font-size="12" fill="#666" opacity="0.8">
+                    <tspan>新資訊</tspan>
+                    <animate attributeName="y" from="-60" to="60" dur="3s" repeatCount="indefinite"/>
+                    <animate attributeName="opacity" from="1" to="0" dur="3s" repeatCount="indefinite"/>
+                </text>
+                <text x="40" y="0" text-anchor="middle" font-size="12" fill="#666" opacity="0.6">
+                    <tspan>舊資訊</tspan>
+                    <animate attributeName="y" from="-60" to="60" dur="3s" repeatCount="indefinite"/>
+                    <animate attributeName="opacity" from="0.6" to="0" dur="3s" repeatCount="indefinite"/>
+                </text>
+                <text x="-40" y="30" text-anchor="middle" font-size="12" fill="#666" opacity="0.4">
+                    <tspan>更舊資訊</tspan>
+                    <animate attributeName="y" from="-60" to="60" dur="3s" repeatCount="indefinite"/>
+                    <animate attributeName="opacity" from="0.4" to="0" dur="3s" repeatCount="indefinite"/>
+                </text>
+            </g>
+        </g>
+        
+        <!-- 說明文字 -->
+        <g transform="translate(-120,80)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 暫存區空間有限</tspan>
+                <tspan x="0" dy="25">• 新資訊不斷湧入</tspan>
+                <tspan x="0" dy="25">• 舊資訊被擠出</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 右側：連結斷裂 -->
+    <g transform="translate(600,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#3498db" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">連結斷裂</text>
+        
+        <!-- 記憶網絡 -->
+        <g transform="translate(0,-40)">
+            <!-- 主要節點 -->
+            <circle cx="0" cy="0" r="20" fill="#3498db" opacity="0.5"/>
+            
+            <!-- 連結斷裂動畫 -->
+            <g>
+                <!-- 右側連結 -->
+                <g>
+                    <circle cx="60" cy="-20" r="15" fill="#3498db" opacity="0.3"/>
+                    <path d="M15,-10 L45,-15" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5">
+                        <animate attributeName="stroke-opacity" from="1" to="0" dur="4s" repeatCount="indefinite"/>
+                    </path>
+                </g>
+                
+                <!-- 左側連結 -->
+                <g>
+                    <circle cx="-60" cy="20" r="15" fill="#3498db" opacity="0.3"/>
+                    <path d="M-15,10 L-45,15" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5">
+                        <animate attributeName="stroke-opacity" from="1" to="0" dur="4s" repeatCount="indefinite"/>
+                    </path>
+                </g>
+                
+                <!-- 底部連結 -->
+                <g>
+                    <circle cx="0" cy="60" r="15" fill="#3498db" opacity="0.3"/>
+                    <path d="M0,20 L0,45" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5">
+                        <animate attributeName="stroke-opacity" from="1" to="0" dur="4s" repeatCount="indefinite"/>
+                    </path>
+                </g>
+            </g>
+        </g>
+        
+        <!-- 說明文字 -->
+        <g transform="translate(-120,80)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 記憶網絡逐漸弱化</tspan>
+                <tspan x="0" dy="25">• 連結逐漸消失</tspan>
+                <tspan x="0" dy="25">• 需要重新建立連結</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666">
+        記憶會因為資訊沖刷或連結斷裂而消失，需要及時整理和複習
+    </text>
+</svg> 

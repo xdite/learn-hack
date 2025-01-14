@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">學習成功的關鍵因素</text>
+    
+    <!-- 左側：目標 -->
+    <g transform="translate(200,150)">
+        <!-- 背景圓 -->
+        <circle cx="0" cy="0" r="100" fill="#3498db" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-60" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">目標</text>
+        
+        <!-- 內容 -->
+        <g transform="translate(-80,-20)">
+            <text font-size="14" fill="#666">
+                <tspan x="0" dy="0">• 明確具體</tspan>
+                <tspan x="0" dy="25">• 可衡量</tspan>
+                <tspan x="0" dy="25">• 階段性</tspan>
+                <tspan x="0" dy="25">• 自主設定</tspan>
+            </text>
+        </g>
+        
+        <!-- 金鑰匙 -->
+        <path d="M-20,-90 L20,-90 L30,-80 L30,-70 L-30,-70 L-30,-80 Z" fill="#f1c40f"/>
+        <circle cx="0" cy="-80" r="15" fill="#f1c40f"/>
+    </g>
+    
+    <!-- 右側：進度 -->
+    <g transform="translate(600,150)">
+        <!-- 背景圓 -->
+        <circle cx="0" cy="0" r="100" fill="#e74c3c" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-60" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">進度</text>
+        
+        <!-- 內容 -->
+        <g transform="translate(-80,-20)">
+            <text font-size="14" fill="#666">
+                <tspan x="0" dy="0">• 可視化</tspan>
+                <tspan x="0" dy="25">• 即時反饋</tspan>
+                <tspan x="0" dy="25">• 成就感</tspan>
+                <tspan x="0" dy="25">• 持續動力</tspan>
+            </text>
+        </g>
+        
+        <!-- 進度條 -->
+        <g transform="translate(-60,60)">
+            <rect x="0" y="0" width="120" height="15" rx="7.5" fill="#fff" stroke="#e74c3c"/>
+            <rect x="0" y="0" width="90" height="15" rx="7.5" fill="#e74c3c" opacity="0.5"/>
+            <text x="60" y="35" text-anchor="middle" font-size="12" fill="#666">75% 完成</text>
+        </g>
+    </g>
+    
+    <!-- 中間連接 -->
+    <g transform="translate(400,150)">
+        <!-- 連接線 -->
+        <path d="M-100,0 L100,0" stroke="#333" stroke-width="2" stroke-dasharray="5,5"/>
+        
+        <!-- 箭頭 -->
+        <path d="M-80,-10 L-100,0 L-80,10" stroke="#333" stroke-width="2"/>
+        <path d="M80,-10 L100,0 L80,10" stroke="#333" stroke-width="2"/>
+        
+        <!-- 中間文字 -->
+        <text x="0" y="-15" text-anchor="middle" font-size="14" fill="#333">相輔相成</text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,350)">
+        <text text-anchor="middle" font-size="16" fill="#666">
+            <tspan x="0" dy="0">目標與進度是學習成功的金鑰匙</tspan>
+            <tspan x="0" dy="25">解開50~80%的學習困境</tspan>
+        </text>
+    </g>
+</svg> 

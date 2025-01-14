@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">主動學習 vs 被動學習</text>
+    
+    <!-- 左側：主動學習 -->
+    <g transform="translate(200,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#27ae60" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#27ae60">主動學習</text>
+        
+        <!-- 學習者圖示 -->
+        <g transform="translate(0,0)">
+            <!-- 身體 -->
+            <circle cx="0" cy="0" r="30" fill="#27ae60" opacity="0.7"/>
+            <!-- 笑臉 -->
+            <path d="M-10,-5 L-5,-5 M5,-5 L10,-5" stroke="#fff" stroke-width="2"/>
+            <path d="M-10,5 C-5,10 5,10 10,5" stroke="#fff" stroke-width="2" fill="none"/>
+            <!-- 思考泡泡 -->
+            <g transform="translate(40,-30)">
+                <circle cx="0" cy="0" r="15" fill="#fff" stroke="#27ae60"/>
+                <text x="0" y="5" text-anchor="middle" font-size="14" fill="#27ae60">?</text>
+            </g>
+            <g transform="translate(70,-40)">
+                <circle cx="0" cy="0" r="20" fill="#fff" stroke="#27ae60"/>
+                <text x="0" y="5" text-anchor="middle" font-size="14" fill="#27ae60">!</text>
+            </g>
+        </g>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(-120,80)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 自主選擇目標</tspan>
+                <tspan x="0" dy="25">• 探索性學習</tspan>
+                <tspan x="0" dy="25">• 高度參與感</tspan>
+                <tspan x="0" dy="25">• 成就感強</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 右側：被動學習 -->
+    <g transform="translate(600,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#e74c3c" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">被動學習</text>
+        
+        <!-- 學習場景 -->
+        <g transform="translate(0,0)">
+            <!-- 老師 -->
+            <circle cx="30" cy="0" r="30" fill="#e74c3c" opacity="0.7"/>
+            <text x="30" y="5" text-anchor="middle" font-size="14" fill="#fff">老師</text>
+            
+            <!-- 學生 -->
+            <circle cx="-30" cy="0" r="25" fill="#e74c3c" opacity="0.4"/>
+            <!-- 疲倦表情 -->
+            <path d="M-40,-5 L-35,-5 M-25,-5 L-20,-5" stroke="#fff" stroke-width="2"/>
+            <path d="M-40,5 L-20,5" stroke="#fff" stroke-width="2"/>
+            
+            <!-- 拉扯的線 -->
+            <path d="M-5,0 L5,0" stroke="#e74c3c" stroke-width="2"/>
+            
+            <!-- 睡意 -->
+            <text x="-60" y="-20" font-size="20" fill="#e74c3c" opacity="0.5">z</text>
+            <text x="-70" y="-35" font-size="24" fill="#e74c3c" opacity="0.3">Z</text>
+        </g>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(-120,80)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 被動接受安排</tspan>
+                <tspan x="0" dy="25">• 機械式記憶</tspan>
+                <tspan x="0" dy="25">• 容易感到疲倦</tspan>
+                <tspan x="0" dy="25">• 學習動力低</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 中間比較箭頭 -->
+    <g transform="translate(400,250)">
+        <path d="M-50,0 L50,0 M30,-10 L50,0 L30,10" stroke="#333" stroke-width="2"/>
+        <text x="0" y="-15" text-anchor="middle" font-size="14" fill="#333">VS</text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666">
+        主動學習讓學習變得更有趣、更有效率
+    </text>
+</svg> 

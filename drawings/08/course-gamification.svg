@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">課程遊戲化設計框架</text>
+    
+    <!-- 四大階段 -->
+    <g transform="translate(400,150)">
+        <!-- 連接箭頭 -->
+        <line x1="-350" y1="0" x2="350" y2="0" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        
+        <!-- Discovery -->
+        <g transform="translate(-270,0)">
+            <circle cx="0" cy="0" r="40" fill="#3498db" opacity="0.2"/>
+            <text x="0" y="-60" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Discovery</text>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">發現階段</text>
+            <text x="0" y="40" text-anchor="middle" font-size="12" fill="#666">引發學習興趣</text>
+        </g>
+        
+        <!-- Onboarding -->
+        <g transform="translate(-90,0)">
+            <circle cx="0" cy="0" r="40" fill="#e74c3c" opacity="0.2"/>
+            <text x="0" y="-60" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Onboarding</text>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">引導階段</text>
+            <text x="0" y="40" text-anchor="middle" font-size="12" fill="#666">建立基礎習慣</text>
+        </g>
+        
+        <!-- Scaffolding -->
+        <g transform="translate(90,0)">
+            <circle cx="0" cy="0" r="40" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="-60" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Scaffolding</text>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">成長階段</text>
+            <text x="0" y="40" text-anchor="middle" font-size="12" fill="#666">技能進階提升</text>
+        </g>
+        
+        <!-- Endgame -->
+        <g transform="translate(270,0)">
+            <circle cx="0" cy="0" r="40" fill="#9b59b6" opacity="0.2"/>
+            <text x="0" y="-60" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Endgame</text>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">精通階段</text>
+            <text x="0" y="40" text-anchor="middle" font-size="12" fill="#666">成就展示分享</text>
+        </g>
+    </g>
+    
+    <!-- 階段說明 -->
+    <g transform="translate(400,300)">
+        <rect x="-350" y="-30" width="700" height="240" rx="10" fill="#f8f9fa"/>
+        
+        <!-- Discovery -->
+        <g transform="translate(-270,0)">
+            <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">
+                <tspan x="0" dy="0">• 史詩使命感</tspan>
+                <tspan x="0" dy="20">• 明確學習目標</tspan>
+                <tspan x="0" dy="20">• 激發學習動機</tspan>
+                <tspan x="0" dy="20">• 降低入門門檻</tspan>
+            </text>
+        </g>
+        
+        <!-- Onboarding -->
+        <g transform="translate(-90,0)">
+            <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">
+                <tspan x="0" dy="0">• 核心技能教學</tspan>
+                <tspan x="0" dy="20">• 小步驟練習</tspan>
+                <tspan x="0" dy="20">• 即時正向回饋</tspan>
+                <tspan x="0" dy="20">• 第一次成就感</tspan>
+            </text>
+        </g>
+        
+        <!-- Scaffolding -->
+        <g transform="translate(90,0)">
+            <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">
+                <tspan x="0" dy="0">• 進階技能解鎖</tspan>
+                <tspan x="0" dy="20">• 挑戰任務設計</tspan>
+                <tspan x="0" dy="20">• 變動獎勵機制</tspan>
+                <tspan x="0" dy="20">• 個人化成長</tspan>
+            </text>
+        </g>
+        
+        <!-- Endgame -->
+        <g transform="translate(270,0)">
+            <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">
+                <tspan x="0" dy="0">• 作品展示平台</tspan>
+                <tspan x="0" dy="20">• 社群互動分享</tspan>
+                <tspan x="0" dy="20">• 成就徽章系統</tspan>
+                <tspan x="0" dy="20">• 專家認證機制</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 箭頭標記定義 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">遊戲化課程設計四大階段</tspan>
+            <tspan x="0" dy="25">從引發興趣到精通分享，建立完整的學習旅程</tspan>
+        </text>
+    </g>
+</svg> 

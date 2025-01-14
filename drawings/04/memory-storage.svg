@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">記憶的存儲機制</text>
+    
+    <!-- 大腦記憶 -->
+    <g transform="translate(200,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#3498db" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">大腦記憶</text>
+        
+        <!-- 記憶內容 -->
+        <g transform="translate(0,-40)">
+            <!-- 事實性知識 -->
+            <g transform="translate(-60,-20)">
+                <circle cx="0" cy="0" r="25" fill="#3498db" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">事實性</text>
+                <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">知識</text>
+            </g>
+            
+            <!-- 概念性知識 -->
+            <g transform="translate(60,-20)">
+                <circle cx="0" cy="0" r="25" fill="#3498db" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">概念性</text>
+                <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">知識</text>
+            </g>
+            
+            <!-- 連接線 -->
+            <path d="M-35,-20 L35,-20" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5"/>
+            
+            <!-- 消退效果 -->
+            <g transform="translate(0,40)">
+                <path d="M-80,-20 L80,-20" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5" opacity="0.7"/>
+                <path d="M-70,0 L70,0" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5" opacity="0.4"/>
+                <path d="M-60,20 L60,20" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5" opacity="0.2"/>
+            </g>
+        </g>
+        
+        <!-- 特點說明 -->
+        <g transform="translate(-120,80)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 存在大腦皮層</tspan>
+                <tspan x="0" dy="25">• 需要反覆複習</tspan>
+                <tspan x="0" dy="25">• 容易被沖刷</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 神經記憶 -->
+    <g transform="translate(600,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#27ae60" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#27ae60">神經記憶</text>
+        
+        <!-- 程序性知識 -->
+        <g transform="translate(0,-40)">
+            <!-- 神經元和連接 -->
+            <g>
+                <!-- 神經元 -->
+                <circle cx="-40" cy="-20" r="15" fill="#27ae60" opacity="0.7"/>
+                <circle cx="40" cy="-20" r="15" fill="#27ae60" opacity="0.7"/>
+                <circle cx="0" cy="30" r="15" fill="#27ae60" opacity="0.7"/>
+                
+                <!-- 神經纖維 -->
+                <path d="M-25,-20 L25,-20" stroke="#27ae60" stroke-width="8" opacity="0.2"/>
+                <path d="M-25,-20 L25,-20" stroke="#27ae60" stroke-width="2"/>
+                
+                <path d="M-30,-10 L-10,20" stroke="#27ae60" stroke-width="8" opacity="0.2"/>
+                <path d="M-30,-10 L-10,20" stroke="#27ae60" stroke-width="2"/>
+                
+                <path d="M30,-10 L10,20" stroke="#27ae60" stroke-width="8" opacity="0.2"/>
+                <path d="M30,-10 L10,20" stroke="#27ae60" stroke-width="2"/>
+            </g>
+            
+            <!-- 髓鞘質保護層 -->
+            <text x="0" y="60" text-anchor="middle" font-size="12" fill="#666">髓鞘質保護</text>
+        </g>
+        
+        <!-- 特點說明 -->
+        <g transform="translate(-120,80)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 存在神經迴路</tspan>
+                <tspan x="0" dy="25">• 練習自動強化</tspan>
+                <tspan x="0" dy="25">• 難以消退</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 中間對比箭頭 -->
+    <g transform="translate(400,250)">
+        <path d="M-50,0 L50,0 M30,-10 L50,0 L30,10" stroke="#333" stroke-width="2"/>
+        <text x="0" y="-15" text-anchor="middle" font-size="14" fill="#333">VS</text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666">
+        程序性知識存在神經迴路中，比存在大腦的知識更穩固
+    </text>
+</svg> 

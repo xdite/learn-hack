@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">從天才少年到平均人的轉變</text>
+    
+    <!-- 左側：15-18歲的狀態 -->
+    <g transform="translate(200,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#3498db" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">青少年時期</text>
+        
+        <!-- 特質列表 -->
+        <g transform="translate(-120,-60)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">✦ 無限好奇心</tspan>
+                <tspan x="0" dy="30">✦ 敢於嘗試</tspan>
+                <tspan x="0" dy="30">✦ 沉迷探索</tspan>
+                <tspan x="0" dy="30">✦ 熱情投入</tspan>
+            </text>
+        </g>
+        
+        <!-- 象徵圖示：上升箭頭 -->
+        <g transform="translate(80,-20)">
+            <path d="M0,40 L0,-40 M-10,-30 L0,-40 L10,-30" 
+                  fill="none" stroke="#3498db" stroke-width="2"/>
+            <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">成長曲線</text>
+        </g>
+    </g>
+    
+    <!-- 右側：成年後狀態 -->
+    <g transform="translate(600,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#e74c3c" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">成年後</text>
+        
+        <!-- 特質列表 -->
+        <g transform="translate(-120,-60)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">✗ 害怕嘗試</tspan>
+                <tspan x="0" dy="30">✗ 追求平均</tspan>
+                <tspan x="0" dy="30">✗ 迴避沉迷</tspan>
+                <tspan x="0" dy="30">✗ 缺乏熱情</tspan>
+            </text>
+        </g>
+        
+        <!-- 象徵圖示：平緩線 -->
+        <g transform="translate(80,-20)">
+            <line x1="-40" y1="0" x2="40" y2="0" stroke="#e74c3c" stroke-width="2"/>
+            <text x="0" y="20" text-anchor="middle" font-size="12" fill="#666">平均水平</text>
+        </g>
+    </g>
+    
+    <!-- 中間轉變過程 -->
+    <g transform="translate(400,250)">
+        <path d="M-50,0 L50,0 M30,-10 L50,0 L30,10" stroke="#333" stroke-width="2"/>
+        <text x="0" y="-15" text-anchor="middle" font-size="14" fill="#333">教育系統影響</text>
+    </g>
+    
+    <!-- 底部說明框 -->
+    <g transform="translate(400,400)">
+        <rect x="-350" y="-40" width="700" height="80" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-15">K-12教育系統的無形壓力：</tspan>
+            <tspan x="0" dy="25">• 打壓個人興趣 • 強調平均發展 • 威脅生存安全</tspan>
+            <tspan x="0" dy="25">導致人們失去探索熱情，關閉了自我升級機制</tspan>
+        </text>
+    </g>
+</svg> 

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">上癮的形成機制</text>
+    
+    <!-- 中央循環圖 -->
+    <g transform="translate(400,250)">
+        <!-- 外圈 -->
+        <circle cx="0" cy="0" r="150" fill="#e74c3c" opacity="0.05"/>
+        
+        <!-- 四個階段圓圈 -->
+        <!-- TRIGGER -->
+        <g transform="translate(0,-120)">
+            <circle cx="0" cy="0" r="45" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="-10" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">觸發</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">製造契機</text>
+        </g>
+        
+        <!-- ACTION -->
+        <g transform="translate(120,0)">
+            <circle cx="0" cy="0" r="45" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="-10" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">行動</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">進行動作</text>
+        </g>
+        
+        <!-- REWARD -->
+        <g transform="translate(0,120)">
+            <circle cx="0" cy="0" r="45" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="-10" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">獎賞</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">變動獎勵</text>
+        </g>
+        
+        <!-- INVESTMENT -->
+        <g transform="translate(-120,0)">
+            <circle cx="0" cy="0" r="45" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="-10" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">投資</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">重新投入</text>
+        </g>
+        
+        <!-- 連接箭頭 -->
+        <g>
+            <!-- 箭頭路徑 -->
+            <path d="M45,-105 A150,150 0 0,1 105,-45" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+            <path d="M105,45 A150,150 0 0,1 45,105" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+            <path d="M-45,105 A150,150 0 0,1 -105,45" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+            <path d="M-105,-45 A150,150 0 0,1 -45,-105" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+        </g>
+    </g>
+    
+    <!-- 箭頭標記定義 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+        </marker>
+    </defs>
+    
+    <!-- 左側說明：正面效果 -->
+    <g transform="translate(150,250)">
+        <rect x="-100" y="-100" width="200" height="200" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="-70" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">正面應用</text>
+        <g transform="translate(-80,-40)">
+            <text font-size="14" fill="#666">
+                <tspan x="0" dy="0">• 學習動力</tspan>
+                <tspan x="0" dy="30">• 技能精進</tspan>
+                <tspan x="0" dy="30">• 持續練習</tspan>
+                <tspan x="0" dy="30">• 突破瓶頸</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 右側說明：負面效果 -->
+    <g transform="translate(650,250)">
+        <rect x="-100" y="-100" width="200" height="200" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="-70" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">負面影響</text>
+        <g transform="translate(-80,-40)">
+            <text font-size="14" fill="#666">
+                <tspan x="0" dy="0">• 時間失控</tspan>
+                <tspan x="0" dy="30">• 忽略其他</tspan>
+                <tspan x="0" dy="30">• 強迫行為</tspan>
+                <tspan x="0" dy="30">• 難以停止</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">上癮機制可以是一把雙刃劍</tspan>
+            <tspan x="0" dy="25">關鍵在於如何善用這個機制來達到正面的學習效果</tspan>
+        </text>
+    </g>
+</svg> 

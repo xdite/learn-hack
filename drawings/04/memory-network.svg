@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">大腦的網狀記憶結構</text>
+    
+    <!-- 左側：零散記憶 -->
+    <g transform="translate(200,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#e74c3c" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">零散記憶</text>
+        
+        <!-- 散落的知識點 -->
+        <g>
+            <!-- 點 -->
+            <circle cx="-80" cy="-60" r="15" fill="#e74c3c" opacity="0.3"/>
+            <circle cx="60" cy="-40" r="15" fill="#e74c3c" opacity="0.3"/>
+            <circle cx="-40" cy="20" r="15" fill="#e74c3c" opacity="0.3"/>
+            <circle cx="80" cy="40" r="15" fill="#e74c3c" opacity="0.3"/>
+            <circle cx="-60" cy="60" r="15" fill="#e74c3c" opacity="0.3"/>
+            
+            <!-- 文字 -->
+            <text x="-80" y="-55" text-anchor="middle" font-size="12" fill="#666">知識1</text>
+            <text x="60" y="-35" text-anchor="middle" font-size="12" fill="#666">知識2</text>
+            <text x="-40" y="25" text-anchor="middle" font-size="12" fill="#666">知識3</text>
+            <text x="80" y="45" text-anchor="middle" font-size="12" fill="#666">知識4</text>
+            <text x="-60" y="65" text-anchor="middle" font-size="12" fill="#666">知識5</text>
+        </g>
+        
+        <!-- 特點說明 -->
+        <text x="0" y="100" text-anchor="middle" font-size="14" fill="#666">容易遺忘、難以調用</text>
+    </g>
+    
+    <!-- 右側：網狀記憶 -->
+    <g transform="translate(600,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#27ae60" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#27ae60">網狀記憶</text>
+        
+        <!-- 網狀結構 -->
+        <g>
+            <!-- 節點 -->
+            <circle cx="0" cy="0" r="20" fill="#27ae60" opacity="0.5"/>
+            <circle cx="-80" cy="-60" r="15" fill="#27ae60" opacity="0.3"/>
+            <circle cx="60" cy="-40" r="15" fill="#27ae60" opacity="0.3"/>
+            <circle cx="-40" cy="40" r="15" fill="#27ae60" opacity="0.3"/>
+            <circle cx="80" cy="40" r="15" fill="#27ae60" opacity="0.3"/>
+            
+            <!-- 連接線 -->
+            <path d="M-65,-45 L-15,-15" stroke="#27ae60" stroke-width="2"/>
+            <path d="M15,-15 L45,-25" stroke="#27ae60" stroke-width="2"/>
+            <path d="M-15,15 L-25,25" stroke="#27ae60" stroke-width="2"/>
+            <path d="M15,15 L65,25" stroke="#27ae60" stroke-width="2"/>
+            
+            <!-- 文字 -->
+            <text x="0" y="5" text-anchor="middle" font-size="12" fill="#666">核心</text>
+            <text x="-80" y="-55" text-anchor="middle" font-size="12" fill="#666">邏輯</text>
+            <text x="60" y="-35" text-anchor="middle" font-size="12" fill="#666">故事</text>
+            <text x="-40" y="45" text-anchor="middle" font-size="12" fill="#666">經驗</text>
+            <text x="80" y="45" text-anchor="middle" font-size="12" fill="#666">關聯</text>
+        </g>
+        
+        <!-- 特點說明 -->
+        <text x="0" y="100" text-anchor="middle" font-size="14" fill="#666">容易記住、快速調用</text>
+    </g>
+    
+    <!-- 中間對比箭頭 -->
+    <g transform="translate(400,250)">
+        <path d="M-50,0 L50,0 M30,-10 L50,0 L30,10" stroke="#333" stroke-width="2"/>
+        <text x="0" y="-15" text-anchor="middle" font-size="14" fill="#333">VS</text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666">
+        有結構、有連結的知識才能長期保存在記憶中
+    </text>
+</svg> 

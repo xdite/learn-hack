@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">
+        德雷福斯模型技能等級
+    </text>
+
+    <!-- 等級階梯 -->
+    <g transform="translate(50,80)">
+        <!-- 專家 -->
+        <rect x="0" y="0" width="700" height="60" fill="#2c3e50" opacity="0.9"/>
+        <text x="20" y="38" fill="white" font-size="18">專家 - 靠機遇</text>
+        
+        <!-- 精通者 -->
+        <rect x="0" y="80" width="700" height="60" fill="#34495e" opacity="0.8"/>
+        <text x="20" y="118" fill="white" font-size="18">精通者 - 18-24個月到48-120個月（有無環境發揮鍛鍊）</text>
+        
+        <!-- 勝任者 -->
+        <rect x="0" y="160" width="700" height="60" fill="#2980b9" opacity="0.8"/>
+        <text x="20" y="198" fill="white" font-size="18">勝任者 - 12-18個月到24-36個月（有無厲害環境沉浸）</text>
+        
+        <!-- 高級新手 -->
+        <rect x="0" y="240" width="700" height="60" fill="#3498db" opacity="0.8"/>
+        <text x="20" y="278" fill="white" font-size="18">高級新手 - 2-3個月到12-18個月（有無厲害老師帶練）</text>
+        
+        <!-- 新手 -->
+        <rect x="0" y="320" width="700" height="60" fill="#5dade2" opacity="0.8"/>
+        <text x="20" y="358" fill="white" font-size="18">新手 - 入門階段</text>
+    </g>
+
+    <!-- 箭頭指示成長方向 -->
+    <g transform="translate(760,80)">
+        <path d="M0,320 L0,0 L-10,20 L0,0 L10,20" 
+              fill="none" 
+              stroke="#333" 
+              stroke-width="2"/>
+        <text x="-30" y="170" 
+              transform="rotate(90)" 
+              font-size="16">技能成長方向</text>
+    </g>
+</svg> 

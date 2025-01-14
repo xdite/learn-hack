@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">動物森友會的前五天引導設計</text>
+    
+    <!-- 時間軸 -->
+    <g transform="translate(400,150)">
+        <!-- 主軸線 -->
+        <line x1="-350" y1="0" x2="350" y2="0" stroke="#333" stroke-width="2"/>
+        
+        <!-- 五個時間點 -->
+        <g transform="translate(-280,0)">
+            <circle cx="0" cy="0" r="10" fill="#3498db"/>
+            <text x="0" y="-20" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">第一天</text>
+            <text x="0" y="35" text-anchor="middle" font-size="12" fill="#666">簽下房貸</text>
+        </g>
+        
+        <g transform="translate(-140,0)">
+            <circle cx="0" cy="0" r="10" fill="#3498db"/>
+            <text x="0" y="-20" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">第二天</text>
+            <text x="0" y="35" text-anchor="middle" font-size="12" fill="#666">任務意義</text>
+        </g>
+        
+        <g transform="translate(0,0)">
+            <circle cx="0" cy="0" r="10" fill="#3498db"/>
+            <text x="0" y="-20" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">第三天</text>
+            <text x="0" y="35" text-anchor="middle" font-size="12" fill="#666">收集系統</text>
+        </g>
+        
+        <g transform="translate(140,0)">
+            <circle cx="0" cy="0" r="10" fill="#3498db"/>
+            <text x="0" y="-20" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">第四天</text>
+            <text x="0" y="35" text-anchor="middle" font-size="12" fill="#666">社交互動</text>
+        </g>
+        
+        <g transform="translate(280,0)">
+            <circle cx="0" cy="0" r="10" fill="#3498db"/>
+            <text x="0" y="-20" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">第五天</text>
+            <text x="0" y="35" text-anchor="middle" font-size="12" fill="#666">創造系統</text>
+        </g>
+    </g>
+    
+    <!-- 動力機制說明 -->
+    <g transform="translate(400,250)">
+        <rect x="-350" y="-30" width="700" height="200" rx="10" fill="#f8f9fa"/>
+        
+        <!-- 第一列 -->
+        <g transform="translate(-280,0)">
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 製造債務感</tspan>
+                <tspan x="0" dy="25">• 建立目標</tspan>
+                <tspan x="0" dy="25">• 損失厭惡</tspan>
+            </text>
+        </g>
+        
+        <!-- 第二列 -->
+        <g transform="translate(-140,0)">
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 任務獎勵</tspan>
+                <tspan x="0" dy="25">• 意義建立</tspan>
+                <tspan x="0" dy="25">• 成就感</tspan>
+            </text>
+        </g>
+        
+        <!-- 第三列 -->
+        <g transform="translate(0,0)">
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 收集慾望</tspan>
+                <tspan x="0" dy="25">• 隨機獎勵</tspan>
+                <tspan x="0" dy="25">• 所有權</tspan>
+            </text>
+        </g>
+        
+        <!-- 第四列 -->
+        <g transform="translate(140,0)">
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 社交認同</tspan>
+                <tspan x="0" dy="25">• 互動樂趣</tspan>
+                <tspan x="0" dy="25">• 稀有感</tspan>
+            </text>
+        </g>
+        
+        <!-- 第五列 -->
+        <g transform="translate(280,0)">
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 創造自由</tspan>
+                <tspan x="0" dy="25">• 賦權感</tspan>
+                <tspan x="0" dy="25">• 成就展示</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">前五天是關鍵的引導期</tspan>
+            <tspan x="0" dy="25">每天逐步解鎖新機制，建立玩家習慣與動力</tspan>
+        </text>
+    </g>
+</svg> 

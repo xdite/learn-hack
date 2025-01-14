@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">遊戲化學習儀表板</text>
+    
+    <!-- 左側：狀態圖 -->
+    <g transform="translate(50,80)">
+        <!-- 標題 -->
+        <text x="100" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#3498db">狀態圖</text>
+        
+        <!-- 角色狀態框 -->
+        <rect x="20" y="50" width="160" height="200" rx="10" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+        
+        <!-- 等級信息 -->
+        <g transform="translate(40,80)">
+            <text font-size="14" fill="#333333">Level 5</text>
+            <!-- 經驗條 -->
+            <rect x="0" y="15" width="120" height="10" fill="#fff" stroke="#3498db"/>
+            <rect x="0" y="15" width="80" height="10" fill="#3498db" opacity="0.5"/>
+            <text x="60" y="40" font-size="12" fill="#666">EXP: 80/100</text>
+        </g>
+        
+        <!-- 能力值 -->
+        <g transform="translate(40,130)">
+            <text x="0" y="0" font-size="14" fill="#333333">能力值</text>
+            <text x="0" y="25" font-size="12" fill="#666">記憶力: ★★★☆☆</text>
+            <text x="0" y="50" font-size="12" fill="#666">專注力: ★★★★☆</text>
+            <text x="0" y="75" font-size="12" fill="#666">理解力: ★★★★★</text>
+        </g>
+    </g>
+    
+    <!-- 中間：任務表 -->
+    <g transform="translate(300,80)">
+        <!-- 標題 -->
+        <text x="100" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#27ae60">任務清單</text>
+        
+        <!-- 任務列表框 -->
+        <rect x="20" y="50" width="160" height="200" rx="10" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+        
+        <!-- 任務項目 -->
+        <g transform="translate(40,80)">
+            <circle cx="0" cy="0" r="6" fill="#27ae60"/>
+            <text x="20" y="5" font-size="14" fill="#333">完成第一章</text>
+            
+            <circle cx="0" cy="30" r="6" fill="#27ae60" opacity="0.5"/>
+            <text x="20" y="35" font-size="14" fill="#666">練習題 x 5</text>
+            
+            <circle cx="0" cy="60" r="6" stroke="#27ae60" fill="none"/>
+            <text x="20" y="65" font-size="14" fill="#666">小測驗</text>
+            
+            <circle cx="0" cy="90" r="6" stroke="#27ae60" fill="none"/>
+            <text x="20" y="95" font-size="14" fill="#666">複習筆記</text>
+        </g>
+    </g>
+    
+    <!-- 右側：儀表版 -->
+    <g transform="translate(550,80)">
+        <!-- 標題 -->
+        <text x="100" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#e74c3c">進度儀表板</text>
+        
+        <!-- 儀表板框 -->
+        <rect x="20" y="50" width="160" height="200" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+        
+        <!-- 進度圓環 -->
+        <g transform="translate(100,130)">
+            <circle cx="0" cy="0" r="40" fill="none" stroke="#ddd" stroke-width="8"/>
+            <path d="M 0 -40 A 40 40 0 1 1 -40 0" 
+                  fill="none" stroke="#e74c3c" stroke-width="8"/>
+            <text x="0" y="5" text-anchor="middle" font-size="16" fill="#333">75%</text>
+            <text x="0" y="25" text-anchor="middle" font-size="12" fill="#666">總進度</text>
+        </g>
+        
+        <!-- 其他指標 -->
+        <g transform="translate(40,200)">
+            <text x="0" y="0" font-size="12" fill="#666">每日目標: 90%</text>
+            <text x="0" y="20" font-size="12" fill="#666">連續天數: 7天</text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(50,320)">
+        <text x="0" y="0" font-size="16" font-weight="bold" fill="#333">遊戲化元素的優勢：</text>
+        <g transform="translate(20,30)">
+            <circle cx="0" cy="0" r="4" fill="#3498db"/>
+            <text x="15" y="5" font-size="14" fill="#333">清晰的進度追蹤</text>
+            
+            <circle cx="0" cy="30" r="4" fill="#27ae60"/>
+            <text x="15" y="35" font-size="14" fill="#333">明確的任務目標</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#e74c3c"/>
+            <text x="15" y="65" font-size="14" fill="#333">即時的成就回饋</text>
+        </g>
+    </g>
+</svg> 

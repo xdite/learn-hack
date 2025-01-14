@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">科技發展速度 vs 人類學習速度</text>
+    
+    <!-- 座標軸 -->
+    <line x1="100" y1="350" x2="700" y2="350" stroke="#333333" stroke-width="2"/>
+    <line x1="100" y1="350" x2="100" y2="50" stroke="#333333" stroke-width="2"/>
+    
+    <!-- X軸標籤 -->
+    <text x="400" y="380" text-anchor="middle" font-size="14" fill="#333333">時間</text>
+    <text x="100" y="370" text-anchor="middle" font-size="12" fill="#666666">1980</text>
+    <text x="300" y="370" text-anchor="middle" font-size="12" fill="#666666">2000</text>
+    <text x="500" y="370" text-anchor="middle" font-size="12" fill="#666666">2020</text>
+    <text x="700" y="370" text-anchor="middle" font-size="12" fill="#666666">2040</text>
+    
+    <!-- 科技發展曲線 -->
+    <path d="M100,300 Q200,280 300,200 T500,80 T700,30" 
+          fill="none" stroke="#e74c3c" stroke-width="3"/>
+    <text x="720" y="40" font-size="14" fill="#e74c3c">科技發展速度</text>
+    
+    <!-- 自然學習曲線 -->
+    <path d="M100,300 Q200,290 300,280 T500,260 T700,240" 
+          fill="none" stroke="#27ae60" stroke-width="3"/>
+    <text x="720" y="240" font-size="14" fill="#27ae60">自然學習速度</text>
+    
+    <!-- 刻意學習曲線 -->
+    <path d="M100,300 Q200,270 300,230 T500,170 T700,120" 
+          fill="none" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+    <text x="720" y="120" font-size="14" fill="#3498db">刻意學習速度</text>
+    
+    <!-- 關鍵時間點標記 -->
+    <g transform="translate(200,150)">
+        <circle cx="0" cy="0" r="4" fill="#e74c3c"/>
+        <text x="10" y="5" font-size="12" fill="#666666">個人電腦普及</text>
+    </g>
+    
+    <g transform="translate(350,120)">
+        <circle cx="0" cy="0" r="4" fill="#e74c3c"/>
+        <text x="10" y="5" font-size="12" fill="#666666">網際網路時代</text>
+    </g>
+    
+    <g transform="translate(500,90)">
+        <circle cx="0" cy="0" r="4" fill="#e74c3c"/>
+        <text x="10" y="5" font-size="12" fill="#666666">移動互聯網</text>
+    </g>
+    
+    <!-- 差距區域 -->
+    <path d="M300,200 L300,280 M400,140 L400,270 M500,80 L500,260" 
+          stroke="#cccccc" stroke-width="1" stroke-dasharray="3,3"/>
+</svg> 

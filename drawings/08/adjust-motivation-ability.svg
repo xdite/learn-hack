@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">如何調整能力與動機</text>
+    
+    <!-- 左側：降低門檻 -->
+    <g transform="translate(200,300)">
+        <!-- 背景 -->
+        <rect x="-150" y="-200" width="300" height="400" rx="10" fill="#3498db" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-170" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">降低學習門檻</text>
+        
+        <!-- 策略列表 -->
+        <g transform="translate(-120,-120)">
+            <text font-size="14" fill="#666">
+                <tspan x="0" dy="0">• 選擇簡單教材</tspan>
+                <tspan x="0" dy="30">• 拆解成小目標</tspan>
+                <tspan x="0" dy="30">• 跳過看不懂的</tspan>
+                <tspan x="0" dy="30">• 參加新手班</tspan>
+                <tspan x="0" dy="30">• 先學會套路</tspan>
+                <tspan x="0" dy="30">• 循序漸進</tspan>
+                <tspan x="0" dy="30">• 專注基礎練習</tspan>
+                <tspan x="0" dy="30">• 建立小勝利</tspan>
+            </text>
+        </g>
+        
+        <!-- 圖示 -->
+        <text x="0" y="180" text-anchor="middle" font-size="40">🎯</text>
+    </g>
+    
+    <!-- 右側：提升動機 -->
+    <g transform="translate(600,300)">
+        <!-- 背景 -->
+        <rect x="-150" y="-200" width="300" height="400" rx="10" fill="#2ecc71" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-170" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">提升學習動機</text>
+        
+        <!-- 策略列表 -->
+        <g transform="translate(-120,-120)">
+            <text font-size="14" fill="#666">
+                <tspan x="0" dy="0">• 設定遠大目標</tspan>
+                <tspan x="0" dy="30">• 尋找使命感</tspan>
+                <tspan x="0" dy="30">• 連結實際需求</tspan>
+                <tspan x="0" dy="30">• 參加競賽</tspan>
+                <tspan x="0" dy="30">• 社群分享</tspan>
+                <tspan x="0" dy="30">• 獲取回饋</tspan>
+                <tspan x="0" dy="30">• 建立特色</tspan>
+                <tspan x="0" dy="30">• 創造影響力</tspan>
+            </text>
+        </g>
+        
+        <!-- 圖示 -->
+        <text x="0" y="180" text-anchor="middle" font-size="40">🚀</text>
+    </g>
+    
+    <!-- 中央連接 -->
+    <g transform="translate(400,300)">
+        <circle cx="0" cy="0" r="40" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#333">
+            <tspan x="0" dy="-10">平衡</tspan>
+            <tspan x="0" dy="20">調整</tspan>
+        </text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">同時調整學習門檻與動機水平</tspan>
+            <tspan x="0" dy="25">找到最適合自己的學習節奏與方式</tspan>
+        </text>
+    </g>
+</svg> 

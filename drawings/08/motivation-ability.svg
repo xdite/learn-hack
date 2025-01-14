@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">行為發生的關鍵要素</text>
+    
+    <!-- 座標系統 -->
+    <g transform="translate(150,500)">
+        <!-- X軸 -->
+        <line x1="0" y1="0" x2="500" y2="0" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <text x="500" y="30" text-anchor="middle" font-size="16" fill="#333">能力 Ability</text>
+        
+        <!-- Y軸 -->
+        <line x1="0" y1="0" x2="0" y2="-400" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <text x="-30" y="-380" text-anchor="middle" font-size="16" fill="#333" transform="rotate(-90,-30,-380)">動機 Motivation</text>
+        
+        <!-- 行為發生曲線 -->
+        <path d="M 50,-50 Q 250,-300 450,-350" stroke="#3498db" stroke-width="3" fill="none"/>
+        
+        <!-- 區域標示 -->
+        <g transform="translate(120,-280)">
+            <rect x="-80" y="-30" width="160" height="60" rx="10" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+                <tspan x="0" dy="-5">行為不會發生</tspan>
+                <tspan x="0" dy="20">門檻太高</tspan>
+            </text>
+        </g>
+        
+        <g transform="translate(400,-100)">
+            <rect x="-80" y="-30" width="160" height="60" rx="10" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+                <tspan x="0" dy="-5">行為不會發生</tspan>
+                <tspan x="0" dy="20">動機不足</tspan>
+            </text>
+        </g>
+        
+        <g transform="translate(380,-280)">
+            <rect x="-80" y="-30" width="160" height="60" rx="10" fill="#2ecc71" opacity="0.1"/>
+            <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+                <tspan x="0" dy="-5">行為會發生</tspan>
+                <tspan x="0" dy="20">動機與能力平衡</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 箭頭標記定義 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    
+    <!-- 公式說明 -->
+    <g transform="translate(400,100)">
+        <rect x="-200" y="-40" width="400" height="80" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="16" fill="#333">
+            <tspan x="0" dy="-10">Behavior = Motivation × Ability × Trigger</tspan>
+            <tspan x="0" dy="30" font-size="14" fill="#666">行為 = 動機 × 能力 × 觸發</tspan>
+        </text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">行為的發生需要適當的動機與能力水平</tspan>
+            <tspan x="0" dy="25">過高的門檻或不足的動機都會阻礙行為的發生</tspan>
+        </text>
+    </g>
+</svg> 

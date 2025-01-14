@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">人類的自動升級系統</text>
+    
+    <!-- 中央大腦圖示 -->
+    <g transform="translate(400,250)">
+        <!-- 大腦外框 -->
+        <path d="M0,-80 C60,-80 80,-40 80,0 C80,40 60,80 0,80 C-60,80 -80,40 -80,0 C-80,-40 -60,-80 0,-80"
+              fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+        
+        <!-- 內部升級循環 -->
+        <g transform="translate(0,0)">
+            <!-- 循環箭頭 -->
+            <path d="M40,0 A40,40 0 1,1 20,-34.6 L28,-20" 
+                  fill="none" stroke="#3498db" stroke-width="2"/>
+            
+            <!-- 循環步驟 -->
+            <g transform="translate(0,-50)">
+                <circle cx="0" cy="0" r="25" fill="#f1c40f" opacity="0.2"/>
+                <text x="0" y="5" text-anchor="middle" font-size="12">興趣</text>
+            </g>
+            
+            <g transform="translate(43,25)">
+                <circle cx="0" cy="0" r="25" fill="#2ecc71" opacity="0.2"/>
+                <text x="0" y="5" text-anchor="middle" font-size="12">練習</text>
+            </g>
+            
+            <g transform="translate(-43,25)">
+                <circle cx="0" cy="0" r="25" fill="#e74c3c" opacity="0.2"/>
+                <text x="0" y="5" text-anchor="middle" font-size="12">獎勵</text>
+            </g>
+        </g>
+    </g>
+    
+    <!-- 左側：升級效果 -->
+    <g transform="translate(150,250)">
+        <rect x="-100" y="-120" width="200" height="240" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="-90" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">自然升級效果</text>
+        <g transform="translate(-80,-60)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">✦ 越練越熟練</tspan>
+                <tspan x="0" dy="30">✦ 越練越快速</tspan>
+                <tspan x="0" dy="30">✦ 時間感消失</tspan>
+                <tspan x="0" dy="30">✦ 自動尋找突破</tspan>
+                <tspan x="0" dy="30">✦ 樂此不疲</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 右側：關閉原因 -->
+    <g transform="translate(650,250)">
+        <rect x="-100" y="-120" width="200" height="240" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="-90" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">系統被關閉原因</text>
+        <g transform="translate(-80,-60)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">✗ 興趣被打壓</tspan>
+                <tspan x="0" dy="30">✗ 要求平均發展</tspan>
+                <tspan x="0" dy="30">✗ 害怕沉迷</tspan>
+                <tspan x="0" dy="30">✗ 追求穩定</tspan>
+                <tspan x="0" dy="30">✗ 迴避失控</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">人類天生就具備自動升級系統</tspan>
+            <tspan x="0" dy="25">只是被教育體系強制關閉了這個機制</tspan>
+        </text>
+    </g>
+</svg> 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">遊戲策略錯配的困境</text>
+    
+    <!-- 左側：A遊戲(填空記憶) -->
+    <g transform="translate(50,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">A遊戲：填空記憶</text>
+        
+        <!-- 遊戲特徵 -->
+        <g transform="translate(30,50)">
+            <rect x="0" y="0" width="240" height="140" rx="10" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+            
+            <!-- 特徵列表 -->
+            <g transform="translate(20,20)">
+                <circle cx="0" cy="0" r="4" fill="#3498db"/>
+                <text x="15" y="5" font-size="14" fill="#333333">明確的目標</text>
+                
+                <circle cx="0" cy="30" r="4" fill="#3498db"/>
+                <text x="15" y="35" font-size="14" fill="#333333">固定的規則</text>
+                
+                <circle cx="0" cy="60" r="4" fill="#3498db"/>
+                <text x="15" y="65" font-size="14" fill="#333333">標準答案</text>
+                
+                <circle cx="0" cy="90" r="4" fill="#3498db"/>
+                <text x="15" y="95" font-size="14" fill="#333333">100分制評分</text>
+            </g>
+        </g>
+        
+        <!-- A遊戲策略 -->
+        <g transform="translate(30,210)">
+            <text x="0" y="0" font-size="16" font-weight="bold" fill="#3498db">策略特點：</text>
+            <g transform="translate(20,20)">
+                <circle cx="0" cy="0" r="4" fill="#3498db"/>
+                <text x="15" y="5" font-size="14" fill="#333333">重複記憶</text>
+                
+                <circle cx="0" cy="30" r="4" fill="#3498db"/>
+                <text x="15" y="35" font-size="14" fill="#333333">追求完美答案</text>
+                
+                <circle cx="0" cy="60" r="4" fill="#3498db"/>
+                <text x="15" y="65" font-size="14" fill="#333333">避免犯錯</text>
+            </g>
+        </g>
+    </g>
+    
+    <!-- 右側：B遊戲(RPG) -->
+    <g transform="translate(450,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#27ae60">B遊戲：RPG人生</text>
+        
+        <!-- 遊戲特徵 -->
+        <g transform="translate(30,50)">
+            <rect x="0" y="0" width="240" height="140" rx="10" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+            
+            <!-- 特徵列表 -->
+            <g transform="translate(20,20)">
+                <circle cx="0" cy="0" r="4" fill="#27ae60"/>
+                <text x="15" y="5" font-size="14" fill="#333333">開放式目標</text>
+                
+                <circle cx="0" cy="30" r="4" fill="#27ae60"/>
+                <text x="15" y="35" font-size="14" fill="#333333">彈性規則</text>
+                
+                <circle cx="0" cy="60" r="4" fill="#27ae60"/>
+                <text x="15" y="65" font-size="14" fill="#333333">多元解法</text>
+                
+                <circle cx="0" cy="90" r="4" fill="#27ae60"/>
+                <text x="15" y="95" font-size="14" fill="#333333">無限成長空間</text>
+            </g>
+        </g>
+        
+        <!-- B遊戲所需策略 -->
+        <g transform="translate(30,210)">
+            <text x="0" y="0" font-size="16" font-weight="bold" fill="#27ae60">所需策略：</text>
+            <g transform="translate(20,20)">
+                <circle cx="0" cy="0" r="4" fill="#27ae60"/>
+                <text x="15" y="5" font-size="14" fill="#333333">探索與嘗試</text>
+                
+                <circle cx="0" cy="30" r="4" fill="#27ae60"/>
+                <text x="15" y="35" font-size="14" fill="#333333">創新解法</text>
+                
+                <circle cx="0" cy="60" r="4" fill="#27ae60"/>
+                <text x="15" y="65" font-size="14" fill="#333333">從失敗中學習</text>
+            </g>
+        </g>
+    </g>
+    
+    <!-- 中間的錯誤連接 -->
+    <g transform="translate(350,200)">
+        <path d="M-20,0 L120,0" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5"/>
+        <text x="50" y="-10" text-anchor="middle" font-size="14" fill="#e74c3c">策略錯配</text>
+        <path d="M40,-30 L60,0 L40,30" fill="none" stroke="#e74c3c" stroke-width="2"/>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666666">用填空遊戲的策略去玩RPG，註定會遇到挫折</text>
+</svg> 

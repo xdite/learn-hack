@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">傳統教育 vs 遊戲設計</text>
+    
+    <!-- 左側：傳統教育 -->
+    <g transform="translate(200,300)">
+        <!-- 背景 -->
+        <rect x="-150" y="-200" width="300" height="400" rx="10" fill="#e74c3c" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-170" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">傳統教育</text>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(-120,-120)">
+            <text font-size="14" fill="#666">
+                <tspan x="0" dy="0">• 講述式教學</tspan>
+                <tspan x="0" dy="30">• 被動式學習</tspan>
+                <tspan x="0" dy="30">• 模糊的目標</tspan>
+                <tspan x="0" dy="30">• 延遲的反饋</tspan>
+                <tspan x="0" dy="30">• 單一評分標準</tspan>
+                <tspan x="0" dy="30">• 缺乏成就感</tspan>
+                <tspan x="0" dy="30">• 強制性任務</tspan>
+                <tspan x="0" dy="30">• 固定的進度</tspan>
+            </text>
+        </g>
+        
+        <!-- 表情符號 -->
+        <text x="0" y="180" text-anchor="middle" font-size="40">😫</text>
+    </g>
+    
+    <!-- 右側：遊戲設計 -->
+    <g transform="translate(600,300)">
+        <!-- 背景 -->
+        <rect x="-150" y="-200" width="300" height="400" rx="10" fill="#2ecc71" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-170" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">遊戲設計</text>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(-120,-120)">
+            <text font-size="14" fill="#666">
+                <tspan x="0" dy="0">• 互動式體驗</tspan>
+                <tspan x="0" dy="30">• 主動式探索</tspan>
+                <tspan x="0" dy="30">• 明確的目標</tspan>
+                <tspan x="0" dy="30">• 即時的反饋</tspan>
+                <tspan x="0" dy="30">• 多元的獎勵</tspan>
+                <tspan x="0" dy="30">• 持續的成長感</tspan>
+                <tspan x="0" dy="30">• 自主的選擇</tspan>
+                <tspan x="0" dy="30">• 彈性的節奏</tspan>
+            </text>
+        </g>
+        
+        <!-- 表情符號 -->
+        <text x="0" y="180" text-anchor="middle" font-size="40">🎮</text>
+    </g>
+    
+    <!-- 中央分隔 VS -->
+    <g transform="translate(400,300)">
+        <circle cx="0" cy="0" r="30" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" 
+              font-size="20" font-weight="bold" fill="#333">VS</text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">遊戲設計善用人性，創造沉浸式學習體驗</tspan>
+            <tspan x="0" dy="25">而傳統教育往往忽略學習動機與即時回饋的重要性</tspan>
+        </text>
+    </g>
+</svg> 

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">兩種遊戲模式的比較</text>
+    
+    <!-- 左側：RPG遊戲 -->
+    <g transform="translate(100,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">RPG遊戲模式</text>
+        
+        <!-- 技能樹圖示 -->
+        <g transform="translate(100,70)">
+            <!-- 主幹 -->
+            <circle cx="50" cy="30" r="20" fill="#3498db" opacity="0.2"/>
+            <text x="50" y="35" text-anchor="middle" font-size="12" fill="#333">核心技能</text>
+            
+            <!-- 分支 -->
+            <line x1="50" y1="50" x2="20" y2="80" stroke="#3498db" stroke-width="2"/>
+            <line x1="50" y1="50" x2="50" y2="80" stroke="#3498db" stroke-width="2"/>
+            <line x1="50" y1="50" x2="80" y2="80" stroke="#3498db" stroke-width="2"/>
+            
+            <circle cx="20" cy="90" r="15" fill="#3498db" opacity="0.2"/>
+            <circle cx="50" cy="90" r="15" fill="#3498db" opacity="0.2"/>
+            <circle cx="80" cy="90" r="15" fill="#3498db" opacity="0.2"/>
+        </g>
+        
+        <!-- 經驗值曲線 -->
+        <path d="M20,200 Q70,190 100,150 Q130,110 150,50" 
+              fill="none" stroke="#3498db" stroke-width="2"/>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(50,150)">
+            <circle cx="0" cy="30" r="4" fill="#3498db"/>
+            <text x="15" y="35" font-size="14" fill="#333333">專精發展</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#3498db"/>
+            <text x="15" y="65" font-size="14" fill="#333333">指數成長</text>
+            
+            <circle cx="0" cy="90" r="4" fill="#3498db"/>
+            <text x="15" y="95" font-size="14" fill="#333333">自由嘗試</text>
+        </g>
+    </g>
+    
+    <!-- 右側：填空遊戲 -->
+    <g transform="translate(450,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#95a5a6">填空記憶遊戲</text>
+        
+        <!-- 考卷圖示 -->
+        <g transform="translate(100,70)">
+            <rect x="0" y="0" width="100" height="120" fill="#95a5a6" opacity="0.2"/>
+            <line x1="10" y1="30" x2="90" y2="30" stroke="#95a5a6" stroke-width="2"/>
+            <line x1="10" y1="60" x2="90" y2="60" stroke="#95a5a6" stroke-width="2"/>
+            <line x1="10" y1="90" x2="90" y2="90" stroke="#95a5a6" stroke-width="2"/>
+            
+            <!-- 填空線 -->
+            <line x1="30" y1="45" x2="70" y2="45" stroke="#95a5a6" stroke-width="2" stroke-dasharray="4,4"/>
+            <line x1="30" y1="75" x2="70" y2="75" stroke="#95a5a6" stroke-width="2" stroke-dasharray="4,4"/>
+            <line x1="30" y1="105" x2="70" y2="105" stroke="#95a5a6" stroke-width="2" stroke-dasharray="4,4"/>
+        </g>
+        
+        <!-- 分數曲線 -->
+        <path d="M20,200 L70,180 L120,170 L170,165" 
+              fill="none" stroke="#95a5a6" stroke-width="2"/>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(50,150)">
+            <circle cx="0" cy="30" r="4" fill="#95a5a6"/>
+            <text x="15" y="35" font-size="14" fill="#333333">追求滿分</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#95a5a6"/>
+            <text x="15" y="65" font-size="14" fill="#333333">避免犯錯</text>
+            
+            <circle cx="0" cy="90" r="4" fill="#95a5a6"/>
+            <text x="15" y="95" font-size="14" fill="#333333">平均發展</text>
+        </g>
+    </g>
+    
+    <!-- 分隔線 -->
+    <line x1="400" y1="60" x2="400" y2="350" stroke="#cccccc" stroke-width="1" stroke-dasharray="5,5"/>
+</svg> 

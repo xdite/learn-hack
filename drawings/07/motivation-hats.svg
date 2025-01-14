@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">人類動力八角理論</text>
+    
+    <!-- 中央分隔線 -->
+    <line x1="100" y1="250" x2="700" y2="250" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    
+    <!-- 白帽區域 -->
+    <g transform="translate(400,150)">
+        <!-- 背景 -->
+        <rect x="-280" y="-100" width="560" height="180" rx="10" fill="#f8f9fa"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-70" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">白帽動力</text>
+        
+        <!-- 左側：外在動力 -->
+        <g transform="translate(-200,0)">
+            <circle cx="0" cy="-20" r="40" fill="#3498db" opacity="0.2"/>
+            <text x="0" y="-20" text-anchor="middle" font-size="14" fill="#333">意義感</text>
+            
+            <circle cx="60" cy="20" r="40" fill="#3498db" opacity="0.2"/>
+            <text x="60" y="20" text-anchor="middle" font-size="14" fill="#333">成就感</text>
+        </g>
+        
+        <!-- 右側：內在動力 -->
+        <g transform="translate(200,0)">
+            <circle cx="-60" cy="-20" r="40" fill="#2ecc71" opacity="0.2"/>
+            <text x="-60" y="-20" text-anchor="middle" font-size="14" fill="#333">賦權感</text>
+            
+            <circle cx="0" cy="20" r="40" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="20" text-anchor="middle" font-size="14" fill="#333">創造力</text>
+        </g>
+        
+        <!-- 特點說明 -->
+        <text x="0" y="60" text-anchor="middle" font-size="14" fill="#666">長期持續的滿足感</text>
+    </g>
+    
+    <!-- 黑帽區域 -->
+    <g transform="translate(400,350)">
+        <!-- 背景 -->
+        <rect x="-280" y="-80" width="560" height="180" rx="10" fill="#f8f9fa"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-50" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">黑帽動力</text>
+        
+        <!-- 左側：外在動力 -->
+        <g transform="translate(-200,0)">
+            <circle cx="0" cy="-20" r="40" fill="#e74c3c" opacity="0.2"/>
+            <text x="0" y="-20" text-anchor="middle" font-size="14" fill="#333">稀缺感</text>
+            
+            <circle cx="60" cy="20" r="40" fill="#e74c3c" opacity="0.2"/>
+            <text x="60" y="20" text-anchor="middle" font-size="14" fill="#333">社交壓力</text>
+        </g>
+        
+        <!-- 右側：內在動力 -->
+        <g transform="translate(200,0)">
+            <circle cx="-60" cy="-20" r="40" fill="#e67e22" opacity="0.2"/>
+            <text x="-60" y="-20" text-anchor="middle" font-size="14" fill="#333">不可預知</text>
+            
+            <circle cx="0" cy="20" r="40" fill="#e67e22" opacity="0.2"/>
+            <text x="0" y="20" text-anchor="middle" font-size="14" fill="#333">損失厭惡</text>
+        </g>
+        
+        <!-- 特點說明 -->
+        <text x="0" y="80" text-anchor="middle" font-size="14" fill="#666">短期強烈的驅動力</text>
+    </g>
+    
+    <!-- 左側標籤 -->
+    <text x="80" y="250" text-anchor="middle" font-size="16" fill="#333" transform="rotate(-90,80,250)">外在動力</text>
+    
+    <!-- 右側標籤 -->
+    <text x="720" y="250" text-anchor="middle" font-size="16" fill="#333" transform="rotate(90,720,250)">內在動力</text>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,470)">
+        <rect x="-350" y="-20" width="700" height="40" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="5" text-anchor="middle" font-size="14" fill="#666">
+            白帽動力帶來長期滿足，黑帽動力產生即時刺激
+        </text>
+    </g>
+</svg> 

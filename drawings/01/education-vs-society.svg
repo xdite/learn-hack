@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">學校教育 vs 社會需求的差異</text>
+    
+    <!-- 表格外框 -->
+    <rect x="50" y="70" width="700" height="400" fill="none" stroke="#cccccc" stroke-width="2"/>
+    
+    <!-- 表頭 -->
+    <rect x="50" y="70" width="700" height="50" fill="#f8f9fa"/>
+    <line x1="400" y1="70" x2="400" y2="470" stroke="#cccccc" stroke-width="2"/>
+    
+    <text x="225" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">學校教育模式</text>
+    <text x="575" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">社會實際需求</text>
+    
+    <!-- 內容列表 -->
+    <g transform="translate(70,140)">
+        <!-- 學校教育特點 -->
+        <g>
+            <circle cx="0" cy="0" r="4" fill="#e74c3c"/>
+            <text x="15" y="5" font-size="16" fill="#333333">標準答案導向</text>
+            
+            <circle cx="0" cy="40" r="4" fill="#e74c3c"/>
+            <text x="15" y="45" font-size="16" fill="#333333">追求平均發展</text>
+            
+            <circle cx="0" cy="80" r="4" fill="#e74c3c"/>
+            <text x="15" y="85" font-size="16" fill="#333333">避免犯錯</text>
+            
+            <circle cx="0" cy="120" r="4" fill="#e74c3c"/>
+            <text x="15" y="125" font-size="16" fill="#333333">靜態知識考核</text>
+            
+            <circle cx="0" cy="160" r="4" fill="#e74c3c"/>
+            <text x="15" y="165" font-size="16" fill="#333333">固定進度</text>
+            
+            <circle cx="0" cy="200" r="4" fill="#e74c3c"/>
+            <text x="15" y="205" font-size="16" fill="#333333">被動接受</text>
+        </g>
+        
+        <!-- 社會需求特點 -->
+        <g transform="translate(330,0)">
+            <circle cx="0" cy="0" r="4" fill="#3498db"/>
+            <text x="15" y="5" font-size="16" fill="#333333">解決問題導向</text>
+            
+            <circle cx="0" cy="40" r="4" fill="#3498db"/>
+            <text x="15" y="45" font-size="16" fill="#333333">專精突出發展</text>
+            
+            <circle cx="0" cy="80" r="4" fill="#3498db"/>
+            <text x="15" y="85" font-size="16" fill="#333333">快速試錯迭代</text>
+            
+            <circle cx="0" cy="120" r="4" fill="#3498db"/>
+            <text x="15" y="125" font-size="16" fill="#333333">動態能力應用</text>
+            
+            <circle cx="0" cy="160" r="4" fill="#3498db"/>
+            <text x="15" y="165" font-size="16" fill="#333333">自主節奏</text>
+            
+            <circle cx="0" cy="200" r="4" fill="#3498db"/>
+            <text x="15" y="205" font-size="16" fill="#333333">主動探索</text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="460" text-anchor="middle" font-size="14" fill="#666666">兩種模式的根本差異在於：一個追求標準化複製，一個追求創新解決方案</text>
+</svg> 

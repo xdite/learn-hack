@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">中國式家長遊戲的啟示</text>
+    
+    <!-- 左側：玩家理想 -->
+    <g transform="translate(200,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#3498db" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">玩家初衷</text>
+        
+        <!-- 內容 -->
+        <g transform="translate(-120,-60)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">✓ 快樂學習</tspan>
+                <tspan x="0" dy="30">✓ 尊重興趣</tspan>
+                <tspan x="0" dy="30">✓ 發展偏科</tspan>
+                <tspan x="0" dy="30">✓ 自由成長</tspan>
+            </text>
+        </g>
+        
+        <!-- 象徵圖示 -->
+        <g transform="translate(80,-20)">
+            <circle cx="0" cy="0" r="40" fill="#3498db" opacity="0.2"/>
+            <text x="0" y="5" text-anchor="middle" font-size="14" fill="#666">理想</text>
+        </g>
+    </g>
+    
+    <!-- 右側：遊戲結果 -->
+    <g transform="translate(600,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#e74c3c" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">實際行為</text>
+        
+        <!-- 內容 -->
+        <g transform="translate(-120,-60)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">! 瘋狂刷分</tspan>
+                <tspan x="0" dy="30">! 科科平均</tspan>
+                <tspan x="0" dy="30">! 比較競爭</tspan>
+                <tspan x="0" dy="30">! 追求名校</tspan>
+            </text>
+        </g>
+        
+        <!-- 象徵圖示 -->
+        <g transform="translate(80,-20)">
+            <rect x="-30" y="-30" width="60" height="60" fill="#e74c3c" opacity="0.2"/>
+            <text x="0" y="5" text-anchor="middle" font-size="14" fill="#666">現實</text>
+        </g>
+    </g>
+    
+    <!-- 中間轉變箭頭 -->
+    <g transform="translate(400,250)">
+        <path d="M-50,0 L50,0 M30,-10 L50,0 L30,10" stroke="#333" stroke-width="2"/>
+        <text x="0" y="-15" text-anchor="middle" font-size="14" fill="#333">遊戲目標驅使</text>
+    </g>
+    
+    <!-- 底部反思 -->
+    <g transform="translate(400,400)">
+        <rect x="-300" y="-30" width="600" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">遊戲揭示了教育體系中的深層矛盾：</tspan>
+            <tspan x="0" dy="25">我們都想擺脫傳統教育的束縛，卻在目標驅使下重蹈覆轍</tspan>
+        </text>
+    </g>
+</svg> 

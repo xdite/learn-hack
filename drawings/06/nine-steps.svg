@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">高手學習九步法</text>
+    
+    <!-- 階梯圖 -->
+    <g transform="translate(50,100)">
+        <!-- 第一階段：探索 -->
+        <g transform="translate(0,400)">
+            <!-- 階梯 -->
+            <rect x="0" y="-100" width="200" height="100" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+            <text x="20" y="-80" font-size="16" font-weight="bold" fill="#3498db">探索階段</text>
+            <!-- 步驟 -->
+            <text x="20" y="-55" font-size="14" fill="#666">1. 列出所有疑惑</text>
+            <text x="20" y="-35" font-size="14" fill="#666">2. 整理學習地圖</text>
+            <text x="20" y="-15" font-size="14" fill="#666">3. 尋找快速解答</text>
+        </g>
+        
+        <!-- 第二階段：實踐 -->
+        <g transform="translate(200,300)">
+            <!-- 階梯 -->
+            <rect x="0" y="-100" width="200" height="200" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+            <text x="20" y="-80" font-size="16" font-weight="bold" fill="#e74c3c">實踐階段</text>
+            <!-- 步驟 -->
+            <text x="20" y="-55" font-size="14" fill="#666">4. 先學習作法</text>
+            <text x="20" y="-35" font-size="14" fill="#666">5. 快速練習1-2遍</text>
+            <text x="20" y="-15" font-size="14" fill="#666">6. 持續練習3-5遍</text>
+        </g>
+        
+        <!-- 第三階段：突破 -->
+        <g transform="translate(400,200)">
+            <!-- 階梯 -->
+            <rect x="0" y="-100" width="300" height="300" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+            <text x="20" y="-80" font-size="16" font-weight="bold" fill="#27ae60">突破階段</text>
+            <!-- 步驟 -->
+            <text x="20" y="-55" font-size="14" fill="#666">7. 追求10倍速進步</text>
+            <text x="20" y="-35" font-size="14" fill="#666">8. 設計新流程</text>
+            <text x="20" y="-15" font-size="14" fill="#666">9. 達到自運轉境界</text>
+        </g>
+        
+        <!-- 連接箭頭 -->
+        <g>
+            <path d="M180,350 L220,350" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+            <path d="M380,250 L420,250" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+        </g>
+    </g>
+    
+    <!-- 箭頭標記定義 -->
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+                markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/>
+        </marker>
+    </defs>
+    
+    <!-- 右側說明 -->
+    <g transform="translate(600,200)">
+        <text font-size="14" fill="#333">
+            <tspan x="0" dy="0">特點：</tspan>
+            <tspan x="0" dy="25">• 循序漸進</tspan>
+            <tspan x="0" dy="25">• 快速驗證</tspan>
+            <tspan x="0" dy="25">• 持續改進</tspan>
+            <tspan x="0" dy="25">• 追求突破</tspan>
+        </text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="570" text-anchor="middle" font-size="16" fill="#666">
+        從探索到突破，建立個人的高效學習系統
+    </text>
+</svg> 

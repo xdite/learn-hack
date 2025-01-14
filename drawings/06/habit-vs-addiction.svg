@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">習慣與上癮的本質結構</text>
+    
+    <!-- 左側：習慣 -->
+    <g transform="translate(200,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#3498db" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">習慣</text>
+        
+        <!-- 公式 -->
+        <text x="0" y="-80" text-anchor="middle" font-size="16" fill="#333">
+            Habit = Trigger → Routine → Reward
+        </text>
+        
+        <!-- 循環圖 -->
+        <g transform="translate(0,0)">
+            <!-- 循環箭頭 -->
+            <path d="M40,0 A40,40 0 1,1 20,-34.6 L28,-20" 
+                  fill="none" stroke="#3498db" stroke-width="2"/>
+            
+            <!-- 步驟文字 -->
+            <g transform="translate(0,-50)">
+                <circle cx="0" cy="0" r="30" fill="#3498db" opacity="0.2"/>
+                <text x="0" y="5" text-anchor="middle" font-size="12">觸發</text>
+            </g>
+            
+            <g transform="translate(43,25)">
+                <circle cx="0" cy="0" r="30" fill="#3498db" opacity="0.2"/>
+                <text x="0" y="5" text-anchor="middle" font-size="12">行為</text>
+            </g>
+            
+            <g transform="translate(-43,25)">
+                <circle cx="0" cy="0" r="30" fill="#3498db" opacity="0.2"/>
+                <text x="0" y="5" text-anchor="middle" font-size="12">固定獎勵</text>
+            </g>
+        </g>
+        
+        <!-- 特點說明 -->
+        <g transform="translate(-120,100)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 可預期的結果</tspan>
+                <tspan x="0" dy="25">• 穩定的行為</tspan>
+                <tspan x="0" dy="25">• 容易停止</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 右側：上癮 -->
+    <g transform="translate(600,250)">
+        <!-- 背景 -->
+        <rect x="-150" y="-150" width="300" height="300" rx="20" fill="#e74c3c" opacity="0.1"/>
+        
+        <!-- 標題 -->
+        <text x="0" y="-120" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">上癮</text>
+        
+        <!-- 公式 -->
+        <text x="0" y="-80" text-anchor="middle" font-size="16" fill="#333">
+            Addict = Trigger → Action → Dynamic Reward
+        </text>
+        
+        <!-- 循環圖 -->
+        <g transform="translate(0,0)">
+            <!-- 循環箭頭 -->
+            <path d="M40,0 A40,40 0 1,1 20,-34.6 L28,-20" 
+                  fill="none" stroke="#e74c3c" stroke-width="2"/>
+            
+            <!-- 步驟文字 -->
+            <g transform="translate(0,-50)">
+                <circle cx="0" cy="0" r="30" fill="#e74c3c" opacity="0.2"/>
+                <text x="0" y="5" text-anchor="middle" font-size="12">觸發</text>
+            </g>
+            
+            <g transform="translate(43,25)">
+                <circle cx="0" cy="0" r="30" fill="#e74c3c" opacity="0.2"/>
+                <text x="0" y="5" text-anchor="middle" font-size="12">行為</text>
+            </g>
+            
+            <g transform="translate(-43,25)">
+                <circle cx="0" cy="0" r="30" fill="#e74c3c" opacity="0.2"/>
+                <text x="0" y="5" text-anchor="middle" font-size="12">變動獎勵</text>
+                <text x="0" y="20" text-anchor="middle" font-size="10">?</text>
+            </g>
+        </g>
+        
+        <!-- 特點說明 -->
+        <g transform="translate(-120,100)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">• 不確定的結果</tspan>
+                <tspan x="0" dy="25">• 持續追求更多</tspan>
+                <tspan x="0" dy="25">• 難以停止</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 中間對比箭頭 -->
+    <g transform="translate(400,250)">
+        <path d="M-50,0 L50,0 M30,-10 L50,0 L30,10" stroke="#333" stroke-width="2"/>
+        <text x="0" y="-15" text-anchor="middle" font-size="14" fill="#333">獎勵變動化</text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">習慣與上癮的結構本質相同</tspan>
+            <tspan x="0" dy="25">差別在於獎勵是固定的還是變動的</tspan>
+        </text>
+    </g>
+</svg> 

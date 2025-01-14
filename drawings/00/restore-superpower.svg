@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">
+        修復你的學習超能力
+    </text>
+
+    <!-- 左側：受限狀態 -->
+    <g transform="translate(200,150)">
+        <text x="0" y="-20" font-size="18" fill="#666">現況</text>
+        
+        <!-- 受限的大腦 -->
+        <g>
+            <path d="M0,0 C30,-30 60,-30 60,0 C60,30 30,60 0,60 C-30,60 -60,30 -60,0 C-60,-30 -30,-30 0,0" 
+                  fill="#f2d9d9" stroke="#e74c3c" stroke-width="2"/>
+            
+            <!-- 鎖鏈 -->
+            <path d="M-70,-10 L70,-10" stroke="#95a5a6" stroke-width="4"/>
+            <path d="M-70,10 L70,10" stroke="#95a5a6" stroke-width="4"/>
+            
+            <!-- 紅叉 -->
+            <path d="M-40,-40 L40,40 M-40,40 L40,-40" stroke="#e74c3c" stroke-width="3"/>
+        </g>
+        
+        <!-- 問題列表 -->
+        <g transform="translate(-80,100)">
+            <text x="0" y="0" font-size="14" fill="#666">• 下載器無法更新</text>
+            <text x="0" y="25" font-size="14" fill="#666">• 學習效率低下</text>
+            <text x="0" y="50" font-size="14" fill="#666">• 感到痛苦排斥</text>
+        </g>
+    </g>
+
+    <!-- 中間箭頭 -->
+    <g transform="translate(380,200)">
+        <path d="M0,0 L40,0 M30,-10 L40,0 L30,10" fill="none" stroke="#333" stroke-width="2"/>
+        <text x="20" y="-15" text-anchor="middle" font-size="14">修復</text>
+    </g>
+
+    <!-- 右側：超能力狀態 -->
+    <g transform="translate(600,150)">
+        <text x="0" y="-20" font-size="18" fill="#666">目標</text>
+        
+        <!-- 發光的大腦 -->
+        <g>
+            <path d="M0,0 C30,-30 60,-30 60,0 C60,30 30,60 0,60 C-30,60 -60,30 -60,0 C-60,-30 -30,-30 0,0" 
+                  fill="#f1c40f" stroke="#f39c12" stroke-width="2"/>
+            
+            <!-- 光芒效果 -->
+            <path d="M0,-70 L0,-40 M40,-40 L20,-20 M70,0 L40,0 M40,40 L20,20 M0,70 L0,40 M-40,40 L-20,20 M-70,0 L-40,0 M-40,-40 L-20,-20" 
+                  stroke="#f39c12" stroke-width="2"/>
+        </g>
+        
+        <!-- 效果列表 -->
+        <g transform="translate(-80,100)">
+            <text x="0" y="0" font-size="14" fill="#27ae60">• 高效學習</text>
+            <text x="0" y="25" font-size="14" fill="#27ae60">• 快樂學習</text>
+            <text x="0" y="50" font-size="14" fill="#27ae60">• 持續進化</text>
+        </g>
+    </g>
+
+    <!-- 底部說明 -->
+    <g transform="translate(400,400)">
+        <rect x="-300" y="0" width="600" height="60" rx="5" fill="#f8f9fa"/>
+        <text x="0" y="25" text-anchor="middle" font-size="16" fill="#666">
+            你的學習超能力一直都在
+        </text>
+        <text x="0" y="45" text-anchor="middle" font-size="16" fill="#666">
+            只是需要正確的方法來啟動它
+        </text>
+    </g>
+</svg> 

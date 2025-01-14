@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">有效的獎勵系統設計</text>
+    
+    <!-- 中央獎勵系統圖示 -->
+    <g transform="translate(400,250)">
+        <!-- 外環 -->
+        <circle cx="0" cy="0" r="150" fill="#2ecc71" opacity="0.1"/>
+        
+        <!-- 中心圖示 -->
+        <circle cx="0" cy="0" r="50" fill="#2ecc71" opacity="0.2"/>
+        <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" 
+              font-size="16" font-weight="bold" fill="#333">獎勵系統</text>
+        
+        <!-- 四個關鍵特性 -->
+        <!-- 即時性 -->
+        <g transform="translate(0,-120)">
+            <circle cx="0" cy="0" r="40" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">即時性</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">立即反饋</text>
+        </g>
+        
+        <!-- 變動性 -->
+        <g transform="translate(120,0)">
+            <circle cx="0" cy="0" r="40" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">變動性</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">驚喜感</text>
+        </g>
+        
+        <!-- 累進性 -->
+        <g transform="translate(0,120)">
+            <circle cx="0" cy="0" r="40" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">累進性</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">持續成長</text>
+        </g>
+        
+        <!-- 多樣性 -->
+        <g transform="translate(-120,0)">
+            <circle cx="0" cy="0" r="40" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">多樣性</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">不同形式</text>
+        </g>
+        
+        <!-- 連接線 -->
+        <path d="M0,-50 L0,-80 M120,0 L80,0 M0,50 L0,80 M-120,0 L-80,0"
+              stroke="#2ecc71" stroke-width="2" opacity="0.5"/>
+    </g>
+    
+    <!-- 左側：獎勵形式 -->
+    <g transform="translate(150,250)">
+        <rect x="-100" y="-120" width="200" height="240" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="-90" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">獎勵形式</text>
+        <g transform="translate(-80,-60)">
+            <text font-size="14" fill="#666">
+                <tspan x="0" dy="0">✦ 成就解鎖</tspan>
+                <tspan x="0" dy="30">✦ 積分獎勵</tspan>
+                <tspan x="0" dy="30">✦ 稀有物品</tspan>
+                <tspan x="0" dy="30">✦ 新功能開放</tspan>
+                <tspan x="0" dy="30">✦ 社交認可</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 右側：設計原則 -->
+    <g transform="translate(650,250)">
+        <rect x="-100" y="-120" width="200" height="240" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="-90" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">設計原則</text>
+        <g transform="translate(-80,-60)">
+            <text font-size="14" fill="#666">
+                <tspan x="0" dy="0">✦ 小步快跑</tspan>
+                <tspan x="0" dy="30">✦ 循序漸進</tspan>
+                <tspan x="0" dy="30">✦ 隨機驚喜</tspan>
+                <tspan x="0" dy="30">✦ 可預期性</tspan>
+                <tspan x="0" dy="30">✦ 正向循環</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">正確的獎勵系統能夠維持學習動力</tspan>
+            <tspan x="0" dy="25">讓重複練習變得有趣且富有成就感</tspan>
+        </text>
+    </g>
+</svg> 

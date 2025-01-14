@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">布魯姆的四種知識：以煎牛排為例</text>
+    
+    <!-- 中央流程圖 -->
+    <g transform="translate(400,250)">
+        <!-- 背景圓 -->
+        <circle cx="0" cy="0" r="80" fill="#f8f9fa"/>
+        
+        <!-- 煎牛排流程 -->
+        <g transform="translate(0,-20)">
+            <!-- 平底鍋 -->
+            <path d="M-40,20 L40,20 C50,20 50,40 40,40 L-40,40 C-50,40 -50,20 -40,20" fill="#666"/>
+            <path d="M-30,20 L30,20" stroke="#333" stroke-width="2"/>
+            <!-- 牛排 -->
+            <rect x="-25" y="25" width="50" height="30" rx="5" fill="#cd853f"/>
+            <!-- 火焰 -->
+            <path d="M-20,45 Q-10,35 0,45 Q10,35 20,45" stroke="#e74c3c" stroke-width="2" fill="none"/>
+            <text x="0" y="70" text-anchor="middle" font-size="12" fill="#666">煎煮過程</text>
+        </g>
+    </g>
+    
+    <!-- 四個知識象限 -->
+    <!-- 程序性知識 -->
+    <g transform="translate(200,150)">
+        <rect x="-150" y="-70" width="300" height="140" rx="10" fill="#27ae60" opacity="0.1"/>
+        <text x="0" y="-45" text-anchor="middle" font-size="16" font-weight="bold" fill="#27ae60">程序性知識</text>
+        <!-- 步驟圖示 -->
+        <g transform="translate(-100,-10)">
+            <circle cx="0" cy="0" r="15" fill="#27ae60" opacity="0.3"/>
+            <text x="0" y="5" text-anchor="middle" font-size="12" fill="#666">回溫</text>
+        </g>
+        <g transform="translate(0,-10)">
+            <circle cx="0" cy="0" r="15" fill="#27ae60" opacity="0.3"/>
+            <text x="0" y="5" text-anchor="middle" font-size="12" fill="#666">煎煮</text>
+        </g>
+        <g transform="translate(100,-10)">
+            <circle cx="0" cy="0" r="15" fill="#27ae60" opacity="0.3"/>
+            <text x="0" y="5" text-anchor="middle" font-size="12" fill="#666">靜置</text>
+        </g>
+        <!-- 連接線 -->
+        <path d="M-85,-10 L-15,-10 M15,-10 L85,-10" stroke="#27ae60" stroke-width="2"/>
+        <text x="0" y="40" text-anchor="middle" font-size="14" fill="#666">完整操作流程</text>
+    </g>
+    
+    <!-- 事實性知識 -->
+    <g transform="translate(600,150)">
+        <rect x="-150" y="-70" width="300" height="140" rx="10" fill="#3498db" opacity="0.1"/>
+        <text x="0" y="-45" text-anchor="middle" font-size="16" font-weight="bold" fill="#3498db">事實性知識</text>
+        <!-- 熟度圖示 -->
+        <g transform="translate(0,-10)">
+            <rect x="-60" y="-20" width="120" height="40" rx="5" fill="#fff" stroke="#3498db"/>
+            <rect x="-55" y="-15" width="35" height="30" fill="#ff6b6b"/> <!-- 全熟 -->
+            <rect x="-15" y="-15" width="35" height="30" fill="#ff8787"/> <!-- 七分熟 -->
+            <rect x="25" y="-15" width="35" height="30" fill="#ffa8a8"/> <!-- 五分熟 -->
+            <text x="0" y="40" text-anchor="middle" font-size="14" fill="#666">熟度標準</text>
+        </g>
+    </g>
+    
+    <!-- 概念性知識 -->
+    <g transform="translate(200,350)">
+        <rect x="-150" y="-70" width="300" height="140" rx="10" fill="#e67e22" opacity="0.1"/>
+        <text x="0" y="-45" text-anchor="middle" font-size="16" font-weight="bold" fill="#e67e22">概念性知識</text>
+        <!-- 溫度計和時間 -->
+        <g transform="translate(-50,-10)">
+            <path d="M-5,-20 L5,-20 L5,20 L-5,20 Z" fill="#e67e22" opacity="0.3"/>
+            <circle cx="0" cy="20" r="10" fill="#e67e22" opacity="0.3"/>
+            <text x="0" y="40" text-anchor="middle" font-size="12" fill="#666">溫度</text>
+        </g>
+        <g transform="translate(50,-10)">
+            <circle cx="0" cy="0" r="20" fill="#e67e22" opacity="0.2"/>
+            <path d="M0,-15 L0,0 L10,10" stroke="#e67e22" stroke-width="2"/>
+            <text x="0" y="40" text-anchor="middle" font-size="12" fill="#666">時間</text>
+        </g>
+    </g>
+    
+    <!-- 元認知知識 -->
+    <g transform="translate(600,350)">
+        <rect x="-150" y="-70" width="300" height="140" rx="10" fill="#9b59b6" opacity="0.1"/>
+        <text x="0" y="-45" text-anchor="middle" font-size="16" font-weight="bold" fill="#9b59b6">元認知知識</text>
+        <!-- 自我評估圖示 -->
+        <g transform="translate(0,-10)">
+            <path d="M-30,0 A30,30 0 0,1 30,0 M-20,-20 L-30,0 M30,0 L20,-20" 
+                  stroke="#9b59b6" stroke-width="2" fill="none"/>
+            <text x="0" y="40" text-anchor="middle" font-size="14" fill="#666">自我調整與評估</text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666">
+        程序性知識是最基礎的，其他知識需要依附在程序性知識上
+    </text>
+</svg> 

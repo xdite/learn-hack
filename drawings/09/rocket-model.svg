@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">學習動力的火箭模型</text>
+    
+    <!-- 太空背景 -->
+    <g transform="translate(400,300)">
+        <!-- 遠端星球 -->
+        <circle cx="200" cy="-100" r="50" fill="#e74c3c" opacity="0.2"/>
+        <text x="200" y="-100" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#333">長期目標</text>
+        
+        <!-- 引力線 -->
+        <path d="M 0,0 Q 100,-50 200,-100" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5" opacity="0.3"/>
+        <text x="100" y="-80" text-anchor="middle" font-size="14" fill="#666">引力吸引</text>
+        
+        <!-- 火箭 -->
+        <g transform="translate(0,0)">
+            <!-- 火箭本體 -->
+            <path d="M -20,30 L 20,30 L 20,-30 L 0,-50 L -20,-30 Z" fill="#3498db"/>
+            
+            <!-- 火焰效果 -->
+            <path d="M -15,30 L 15,30 L 0,60 Z" fill="#f1c40f">
+                <animate attributeName="d" 
+                         values="M -15,30 L 15,30 L 0,60 Z;M -15,30 L 15,30 L 0,70 Z;M -15,30 L 15,30 L 0,60 Z" 
+                         dur="1s" 
+                         repeatCount="indefinite"/>
+            </path>
+        </g>
+        
+        <!-- 導航系統 -->
+        <g transform="translate(-150,-50)">
+            <rect x="-60" y="-40" width="120" height="80" rx="10" fill="#2ecc71" opacity="0.1"/>
+            <text text-anchor="middle" font-size="14" fill="#333">
+                <tspan x="0" dy="-15">導航系統</tspan>
+                <tspan x="0" dy="20">• 我是誰</tspan>
+                <tspan x="0" dy="20">• 我在哪</tspan>
+                <tspan x="0" dy="20">• 要去哪裡</tspan>
+            </text>
+        </g>
+        
+        <!-- 燃料系統 -->
+        <g transform="translate(150,50)">
+            <rect x="-60" y="-40" width="120" height="80" rx="10" fill="#f1c40f" opacity="0.1"/>
+            <text text-anchor="middle" font-size="14" fill="#333">
+                <tspan x="0" dy="-15">燃料推力</tspan>
+                <tspan x="0" dy="20">• 短期動機</tspan>
+                <tspan x="0" dy="20">• 即時回饋</tspan>
+                <tspan x="0" dy="20">• 小目標</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">短期目標如同燃料推力，長期目標如同星球引力</tspan>
+            <tspan x="0" dy="25">導航系統則確保我們走在正確的方向上</tspan>
+        </text>
+    </g>
+</svg> 

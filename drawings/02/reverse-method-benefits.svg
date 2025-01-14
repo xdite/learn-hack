@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">逆向法的五大好處</text>
+    
+    <!-- 中心圓圈：逆向法 -->
+    <circle cx="400" cy="250" r="80" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+    <text x="400" y="255" text-anchor="middle" font-size="20" font-weight="bold" fill="#3498db">逆向法</text>
+    
+    <!-- 五個好處（放射狀排列） -->
+    <!-- 1. 目標簡化 -->
+    <g transform="translate(400,250)">
+        <g transform="translate(-250,-150)">
+            <rect x="0" y="0" width="200" height="80" rx="10" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+            <text x="100" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#27ae60">1. 目標簡化</text>
+            <text x="100" y="55" text-anchor="middle" font-size="12" fill="#666" width="180">
+                <tspan x="100" dy="0">大目標縮短、集中簡化</tspan>
+                <tspan x="100" dy="15">找出關鍵點</tspan>
+            </text>
+            <!-- 連接線 -->
+            <path d="M170,40 L250,150" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,5"/>
+        </g>
+    </g>
+    
+    <!-- 2. 方向明確 -->
+    <g transform="translate(400,250)">
+        <g transform="translate(50,-200)">
+            <rect x="0" y="0" width="200" height="80" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+            <text x="100" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#e74c3c">2. 方向明確</text>
+            <text x="100" y="55" text-anchor="middle" font-size="12" fill="#666" width="180">
+                <tspan x="100" dy="0">不再無頭蒼蠅</tspan>
+                <tspan x="100" dy="15">提前避開坑洞</tspan>
+            </text>
+            <!-- 連接線 -->
+            <path d="M50,80 L-50,200" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5"/>
+        </g>
+    </g>
+    
+    <!-- 3. 進度可視 -->
+    <g transform="translate(400,250)">
+        <g transform="translate(170,0)">
+            <rect x="0" y="0" width="200" height="80" rx="10" fill="#f1c40f" opacity="0.1" stroke="#f1c40f" stroke-width="2"/>
+            <text x="100" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#f1c40f">3. 進度可視</text>
+            <text x="100" y="55" text-anchor="middle" font-size="12" fill="#666" width="180">
+                <tspan x="100" dy="0">無限變有限</tspan>
+                <tspan x="100" dy="15">可預測完成時間</tspan>
+            </text>
+            <!-- 連接線 -->
+            <path d="M0,40 L-90,0" stroke="#f1c40f" stroke-width="2" stroke-dasharray="5,5"/>
+        </g>
+    </g>
+    
+    <!-- 4. 難度降低 -->
+    <g transform="translate(400,250)">
+        <g transform="translate(50,150)">
+            <rect x="0" y="0" width="200" height="80" rx="10" fill="#9b59b6" opacity="0.1" stroke="#9b59b6" stroke-width="2"/>
+            <text x="100" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#9b59b6">4. 難度降低</text>
+            <text x="100" y="55" text-anchor="middle" font-size="12" fill="#666" width="180">
+                <tspan x="100" dy="0">問題變小變短</tspan>
+                <tspan x="100" dy="15">可用粗暴直接解法</tspan>
+            </text>
+            <!-- 連接線 -->
+            <path d="M50,0 L-50,-70" stroke="#9b59b6" stroke-width="2" stroke-dasharray="5,5"/>
+        </g>
+    </g>
+    
+    <!-- 5. 解法具體 -->
+    <g transform="translate(400,250)">
+        <g transform="translate(-250,50)">
+            <rect x="0" y="0" width="200" height="80" rx="10" fill="#2ecc71" opacity="0.1" stroke="#2ecc71" stroke-width="2"/>
+            <text x="100" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#2ecc71">5. 解法具體</text>
+            <text x="100" y="55" text-anchor="middle" font-size="12" fill="#666" width="180">
+                <tspan x="100" dy="0">每個問題都有對應</tspan>
+                <tspan x="100" dy="15">的書籍或課程</tspan>
+            </text>
+            <!-- 連接線 -->
+            <path d="M200,40 L250,0" stroke="#2ecc71" stroke-width="2" stroke-dasharray="5,5"/>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666666">從無限大的遠目標，轉變為可執行的小任務</text>
+</svg> 

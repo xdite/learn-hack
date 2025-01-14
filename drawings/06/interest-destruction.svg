@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">興趣是如何被摧毀的</text>
+    
+    <!-- 中心圓圈：孩子的興趣 -->
+    <g transform="translate(400,250)">
+        <!-- 興趣光環 -->
+        <circle cx="0" cy="0" r="120" fill="#f1c40f" opacity="0.1"/>
+        <circle cx="0" cy="0" r="80" fill="#f1c40f" opacity="0.2"/>
+        
+        <!-- 興趣圖示 -->
+        <g transform="translate(0,-20)">
+            <text text-anchor="middle" font-size="16" fill="#333">孩子的興趣</text>
+            <text y="25" text-anchor="middle" font-size="14" fill="#666">遊戲/繪畫/音樂...</text>
+        </g>
+    </g>
+    
+    <!-- 四周威脅箭頭 -->
+    <g transform="translate(400,250)">
+        <!-- 上方：成績威脅 -->
+        <g transform="translate(0,-150)">
+            <path d="M0,30 L0,0 M-10,10 L0,0 L10,10" stroke="#e74c3c" stroke-width="2"/>
+            <rect x="-80" y="-40" width="160" height="30" rx="5" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="-20" text-anchor="middle" font-size="14" fill="#666">"考不好就沒飯吃"</text>
+        </g>
+        
+        <!-- 右方：物品威脅 -->
+        <g transform="translate(150,0)">
+            <path d="M-30,0 L0,0 M-10,-10 L0,0 L-10,10" stroke="#e74c3c" stroke-width="2"/>
+            <rect x="10" y="-15" width="160" height="30" rx="5" fill="#e74c3c" opacity="0.1"/>
+            <text x="90" y="5" text-anchor="middle" font-size="14" fill="#666">"把玩具都扔掉"</text>
+        </g>
+        
+        <!-- 下方：前途威脅 -->
+        <g transform="translate(0,150)">
+            <path d="M0,-30 L0,0 M-10,-10 L0,0 L10,-10" stroke="#e74c3c" stroke-width="2"/>
+            <rect x="-80" y="10" width="160" height="30" rx="5" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="30" text-anchor="middle" font-size="14" fill="#666">"將來要餓死"</text>
+        </g>
+        
+        <!-- 左方：生存威脅 -->
+        <g transform="translate(-150,0)">
+            <path d="M30,0 L0,0 M10,-10 L0,0 L10,10" stroke="#e74c3c" stroke-width="2"/>
+            <rect x="-170" y="-15" width="160" height="30" rx="5" fill="#e74c3c" opacity="0.1"/>
+            <text x="-90" y="5" text-anchor="middle" font-size="14" fill="#666">"滾出這個家"</text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-40" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="-15" text-anchor="middle" font-size="14" fill="#666">
+            父母以「生存威脅」作為武器
+        </text>
+        <text x="0" y="15" text-anchor="middle" font-size="14" fill="#666">
+            逼迫孩子放棄興趣，專注於考試分數
+        </text>
+    </g>
+    
+    <!-- 消退效果 -->
+    <g transform="translate(400,250)">
+        <circle cx="0" cy="0" r="100" fill="none" stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+        <circle cx="0" cy="0" r="80" fill="none" stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+        <circle cx="0" cy="0" r="60" fill="none" stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5" opacity="0.7"/>
+    </g>
+</svg> 

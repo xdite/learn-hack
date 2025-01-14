@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="400" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">學校教育的理想與現實</text>
+    
+    <!-- 左側：理想模型 -->
+    <g transform="translate(50,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#27ae60">理想中的教育模型</text>
+        
+        <!-- 安全環境示意 -->
+        <rect x="50" y="50" width="200" height="200" rx="10" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+        
+        <!-- 學生圖示 -->
+        <g transform="translate(80,100)">
+            <circle cx="30" cy="30" r="20" fill="#27ae60" opacity="0.2"/>
+            <text x="30" y="35" text-anchor="middle" font-size="12" fill="#27ae60">學生</text>
+            
+            <!-- 成長箭頭 -->
+            <path d="M60,30 Q100,30 140,30" fill="none" stroke="#27ae60" stroke-width="2" marker-end="url(#arrow-green)"/>
+            
+            <circle cx="170" cy="30" r="20" fill="#27ae60" opacity="0.2"/>
+            <text x="170" y="35" text-anchor="middle" font-size="12" fill="#27ae60">專業人才</text>
+        </g>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(70,180)">
+            <circle cx="0" cy="0" r="4" fill="#27ae60"/>
+            <text x="15" y="5" font-size="14" fill="#333333">安全的實驗環境</text>
+            
+            <circle cx="0" cy="30" r="4" fill="#27ae60"/>
+            <text x="15" y="35" font-size="14" fill="#333333">循序漸進的學習</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#27ae60"/>
+            <text x="15" y="65" font-size="14" fill="#333333">培養解決問題能力</text>
+        </g>
+    </g>
+    
+    <!-- 右側：現實情況 -->
+    <g transform="translate(450,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">現實中的教育結果</text>
+        
+        <!-- 框架示意 -->
+        <rect x="50" y="50" width="200" height="200" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+        
+        <!-- 學生圖示 -->
+        <g transform="translate(80,100)">
+            <circle cx="30" cy="30" r="20" fill="#e74c3c" opacity="0.2"/>
+            <text x="30" y="35" text-anchor="middle" font-size="12" fill="#e74c3c">學生</text>
+            
+            <!-- 受限箭頭 -->
+            <path d="M60,30 Q100,50 140,30" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="4,4"/>
+            
+            <circle cx="170" cy="30" r="20" fill="#e74c3c" opacity="0.2"/>
+            <text x="170" y="35" text-anchor="middle" font-size="12" fill="#e74c3c">受限人才</text>
+        </g>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(70,180)">
+            <circle cx="0" cy="0" r="4" fill="#e74c3c"/>
+            <text x="15" y="5" font-size="14" fill="#333333">標準化考試框架</text>
+            
+            <circle cx="0" cy="30" r="4" fill="#e74c3c"/>
+            <text x="15" y="35" font-size="14" fill="#333333">機械式記憶學習</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#e74c3c"/>
+            <text x="15" y="65" font-size="14" fill="#333333">抑制創新思維</text>
+        </g>
+    </g>
+    
+    <!-- 箭頭定義 -->
+    <defs>
+        <marker id="arrow-green" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60"/>
+        </marker>
+    </defs>
+    
+    <!-- 分隔線 -->
+    <line x1="400" y1="60" x2="400" y2="350" stroke="#cccccc" stroke-width="1" stroke-dasharray="5,5"/>
+</svg> 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">心流狀態的五個要素</text>
+    
+    <!-- 中央心流圖示 -->
+    <g transform="translate(400,250)">
+        <!-- 外環 -->
+        <circle cx="0" cy="0" r="150" fill="#3498db" opacity="0.1"/>
+        <circle cx="0" cy="0" r="120" fill="#3498db" opacity="0.15"/>
+        
+        <!-- 中心圖示 -->
+        <circle cx="0" cy="0" r="40" fill="#3498db" opacity="0.2"/>
+        <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" 
+              font-size="16" font-weight="bold" fill="#333">心流</text>
+        
+        <!-- 五個要素圓圈 -->
+        <!-- 明確目標 -->
+        <g transform="translate(0,-120)">
+            <circle cx="0" cy="0" r="35" fill="#f1c40f" opacity="0.2"/>
+            <text x="0" y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">明確目標</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">引領專注</text>
+        </g>
+        
+        <!-- 即時回饋 -->
+        <g transform="translate(114,-37)">
+            <circle cx="0" cy="0" r="35" fill="#e74c3c" opacity="0.2"/>
+            <text x="0" y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">即時回饋</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">立即效果</text>
+        </g>
+        
+        <!-- 難度匹配 -->
+        <g transform="translate(70,95)">
+            <circle cx="0" cy="0" r="35" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">難度匹配</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">適度挑戰</text>
+        </g>
+        
+        <!-- 全神貫注 -->
+        <g transform="translate(-70,95)">
+            <circle cx="0" cy="0" r="35" fill="#9b59b6" opacity="0.2"/>
+            <text x="0" y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">全神貫注</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">排除干擾</text>
+        </g>
+        
+        <!-- 持續挑戰 -->
+        <g transform="translate(-114,-37)">
+            <circle cx="0" cy="0" r="35" fill="#3498db" opacity="0.2"/>
+            <text x="0" y="-5" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">持續挑戰</text>
+            <text x="0" y="15" text-anchor="middle" font-size="12" fill="#666">不斷提升</text>
+        </g>
+        
+        <!-- 連接線 -->
+        <path d="M0,-40 L0,-85 M114,-37 L80,-26 M70,95 L28,38 M-70,95 L-28,38 M-114,-37 L-80,-26"
+              stroke="#333" stroke-width="1" opacity="0.3"/>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">心流是一種渾然忘我的最佳體驗狀態</tspan>
+            <tspan x="0" dy="25">這五個要素相互配合，能讓人進入並維持在心流狀態中</tspan>
+        </text>
+    </g>
+</svg> 

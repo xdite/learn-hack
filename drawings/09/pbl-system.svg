@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">PBL 遊戲化系統</text>
+    
+    <!-- 三大元素 -->
+    <g transform="translate(400,300)">
+        <!-- Points -->
+        <g transform="translate(-250,0)">
+            <circle cx="0" cy="0" r="120" fill="#f1c40f" opacity="0.1"/>
+            <text x="0" y="-70" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">Points</text>
+            
+            <!-- 積分圖示 -->
+            <g transform="translate(0,-20)">
+                <circle cx="0" cy="0" r="40" fill="#f1c40f" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-size="20" fill="#333">
+                    <tspan x="0" dy="-10">1000</tspan>
+                    <tspan x="0" dy="25">分</tspan>
+                </text>
+            </g>
+            
+            <!-- 說明列表 -->
+            <g transform="translate(-80,40)">
+                <text font-size="14" fill="#666">
+                    <tspan x="0" dy="0">• 答對問題</tspan>
+                    <tspan x="0" dy="25">• 完成任務</tspan>
+                    <tspan x="0" dy="25">• 達成目標</tspan>
+                    <tspan x="0" dy="25">• 進度量化</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- Badge -->
+        <g transform="translate(0,0)">
+            <circle cx="0" cy="0" r="120" fill="#9b59b6" opacity="0.1"/>
+            <text x="0" y="-70" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">Badge</text>
+            
+            <!-- 徽章圖示 -->
+            <g transform="translate(0,-20)">
+                <path d="M -30,-30 L 30,-30 L 40,-10 L 40,20 L -40,20 L -40,-10 Z" 
+                      fill="#9b59b6" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#333">答題王</text>
+            </g>
+            
+            <!-- 說明列表 -->
+            <g transform="translate(-80,40)">
+                <text font-size="14" fill="#666">
+                    <tspan x="0" dy="0">• 特殊成就</tspan>
+                    <tspan x="0" dy="25">• 技能認證</tspan>
+                    <tspan x="0" dy="25">• 里程碑</tspan>
+                    <tspan x="0" dy="25">• 身份象徵</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- Leaderboard -->
+        <g transform="translate(250,0)">
+            <circle cx="0" cy="0" r="120" fill="#2ecc71" opacity="0.1"/>
+            <text x="0" y="-70" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">Leaderboard</text>
+            
+            <!-- 排行榜圖示 -->
+            <g transform="translate(0,-20)">
+                <rect x="-40" y="-30" width="80" height="60" fill="#2ecc71" opacity="0.2"/>
+                <text text-anchor="middle" font-size="14" fill="#333">
+                    <tspan x="0" dy="-15">1. 小明組</tspan>
+                    <tspan x="0" dy="20">2. 我的組</tspan>
+                    <tspan x="0" dy="20">3. 小華組</tspan>
+                </text>
+            </g>
+            
+            <!-- 說明列表 -->
+            <g transform="translate(-80,40)">
+                <text font-size="14" fill="#666">
+                    <tspan x="0" dy="0">• 競爭動力</tspan>
+                    <tspan x="0" dy="25">• 相對位置</tspan>
+                    <tspan x="0" dy="25">• 社交比較</tspan>
+                    <tspan x="0" dy="25">• 目標參考</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">PBL系統能有效可視化學習進度與成果</tspan>
+            <tspan x="0" dy="25">讓學習者清楚知道：我是誰、我在哪、我要幹嘛</tspan>
+        </text>
+    </g>
+</svg> 

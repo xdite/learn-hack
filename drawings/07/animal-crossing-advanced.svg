@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">動物森友會的進階引導設計</text>
+    
+    <!-- 中央兩天進程 -->
+    <g transform="translate(400,180)">
+        <!-- 第六天 -->
+        <g transform="translate(-200,0)">
+            <circle cx="0" cy="0" r="100" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="-70" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">第六天</text>
+            <text x="0" y="-45" text-anchor="middle" font-size="16" fill="#666">大頭菜交易</text>
+            
+            <!-- 機制說明 -->
+            <g transform="translate(-70,-20)">
+                <text font-size="14" fill="#333">
+                    <tspan x="0" dy="0">• 投機賺錢</tspan>
+                    <tspan x="0" dy="25">• 時間壓力</tspan>
+                    <tspan x="0" dy="25">• 損失恐懼</tspan>
+                    <tspan x="0" dy="25">• 每日回訪</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- 第七天 -->
+        <g transform="translate(200,0)">
+            <circle cx="0" cy="0" r="100" fill="#2ecc71" opacity="0.1"/>
+            <text x="0" y="-70" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">第七天</text>
+            <text x="0" y="-45" text-anchor="middle" font-size="16" fill="#666">島嶼建設</text>
+            
+            <!-- 機制說明 -->
+            <g transform="translate(-70,-20)">
+                <text font-size="14" fill="#333">
+                    <tspan x="0" dy="0">• 目標設定</tspan>
+                    <tspan x="0" dy="25">• 創意發揮</tspan>
+                    <tspan x="0" dy="25">• 成就展示</tspan>
+                    <tspan x="0" dy="25">• 持續投入</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- 連接箭頭 -->
+        <path d="M-80,0 L80,0" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    </g>
+    
+    <!-- 底部動力分析 -->
+    <g transform="translate(400,350)">
+        <!-- 第六天動力 -->
+        <g transform="translate(-200,0)">
+            <rect x="-120" y="-50" width="240" height="100" rx="10" fill="#f8f9fa"/>
+            <text x="0" y="-25" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">黑帽動力</text>
+            <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">
+                <tspan x="0" dy="0">• 稀缺感（限時交易）</tspan>
+                <tspan x="0" dy="20">• 不確定性（價格波動）</tspan>
+                <tspan x="0" dy="20">• 損失厭惡（菜價跌落）</tspan>
+            </text>
+        </g>
+        
+        <!-- 第七天動力 -->
+        <g transform="translate(200,0)">
+            <rect x="-120" y="-50" width="240" height="100" rx="10" fill="#f8f9fa"/>
+            <text x="0" y="-25" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">白帽動力</text>
+            <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">
+                <tspan x="0" dy="0">• 成就感（島嶼進化）</tspan>
+                <tspan x="0" dy="20">• 創造力（自由設計）</tspan>
+                <tspan x="0" dy="20">• 使命感（島主職責）</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 箭頭標記定義 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">從短期刺激到長期投入</tspan>
+            <tspan x="0" dy="25">巧妙結合黑帽與白帽動力，建立玩家持續參與的動力</tspan>
+        </text>
+    </g>
+</svg> 

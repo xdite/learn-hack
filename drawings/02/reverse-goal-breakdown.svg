@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">目標逆向拆解法</text>
+    
+    <!-- 上方：目標與現狀 -->
+    <g transform="translate(100,80)">
+        <!-- 現狀 -->
+        <rect x="0" y="0" width="150" height="60" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+        <text x="75" y="35" text-anchor="middle" font-size="16" fill="#e74c3c">現在的狀態</text>
+        
+        <!-- 目標 -->
+        <rect x="450" y="0" width="150" height="60" rx="10" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+        <text x="525" y="35" text-anchor="middle" font-size="16" fill="#27ae60">想達到的目標</text>
+        
+        <!-- 連接線 -->
+        <path d="M150,30 L450,30" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+    </g>
+    
+    <!-- 中間：困難與抱怨 -->
+    <g transform="translate(150,180)">
+        <!-- 上方抱怨 -->
+        <g transform="translate(0,0)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e74c3c" opacity="0.1"/>
+            <text x="60" y="25" text-anchor="middle" font-size="12" fill="#666">學習很累</text>
+        </g>
+        
+        <g transform="translate(150,0)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e74c3c" opacity="0.1"/>
+            <text x="60" y="25" text-anchor="middle" font-size="12" fill="#666">記不住</text>
+        </g>
+        
+        <g transform="translate(300,0)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e74c3c" opacity="0.1"/>
+            <text x="60" y="25" text-anchor="middle" font-size="12" fill="#666">沒有時間</text>
+        </g>
+        
+        <!-- 下方抱怨 -->
+        <g transform="translate(75,60)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e74c3c" opacity="0.1"/>
+            <text x="60" y="25" text-anchor="middle" font-size="12" fill="#666">提不起興趣</text>
+        </g>
+        
+        <g transform="translate(225,60)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e74c3c" opacity="0.1"/>
+            <text x="60" y="25" text-anchor="middle" font-size="12" fill="#666">看不到進步</text>
+        </g>
+    </g>
+    
+    <!-- 轉換箭頭 -->
+    <g transform="translate(400,300)">
+        <path d="M-50,0 L50,0 M30,-10 L50,0 L30,10" stroke="#3498db" stroke-width="2"/>
+        <text x="0" y="-10" text-anchor="middle" font-size="14" fill="#3498db">轉換為正向目標</text>
+    </g>
+    
+    <!-- 下方：解決方案 -->
+    <g transform="translate(150,350)">
+        <!-- 分類標籤 -->
+        <g transform="translate(0,0)">
+            <rect x="0" y="0" width="100" height="30" rx="15" fill="#3498db" opacity="0.2"/>
+            <text x="50" y="20" text-anchor="middle" font-size="12" fill="#3498db">省力方法</text>
+        </g>
+        
+        <g transform="translate(120,0)">
+            <rect x="0" y="0" width="100" height="30" rx="15" fill="#3498db" opacity="0.2"/>
+            <text x="50" y="20" text-anchor="middle" font-size="12" fill="#3498db">記憶方法</text>
+        </g>
+        
+        <g transform="translate(240,0)">
+            <rect x="0" y="0" width="100" height="30" rx="15" fill="#3498db" opacity="0.2"/>
+            <text x="50" y="20" text-anchor="middle" font-size="12" fill="#3498db">時間管理</text>
+        </g>
+        
+        <g transform="translate(360,0)">
+            <rect x="0" y="0" width="100" height="30" rx="15" fill="#3498db" opacity="0.2"/>
+            <text x="50" y="20" text-anchor="middle" font-size="12" fill="#3498db">動機維持</text>
+        </g>
+    </g>
+    
+    <!-- 最終任務清單 -->
+    <g transform="translate(100,420)">
+        <rect x="0" y="0" width="600" height="40" rx="5" fill="#27ae60" opacity="0.1"/>
+        <text x="300" y="25" text-anchor="middle" font-size="14" fill="#27ae60">可執行的任務清單與學習路徑</text>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="480" text-anchor="middle" font-size="14" fill="#666666">將困難反轉為目標，再分類整理成可行的任務清單</text>
+</svg> 

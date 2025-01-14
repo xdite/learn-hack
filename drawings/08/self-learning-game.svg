@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">自學遊戲化框架</text>
+    
+    <!-- 八大階段圓環 -->
+    <g transform="translate(400,300)">
+        <!-- 背景圓環 -->
+        <circle cx="0" cy="0" r="200" fill="#f8f9fa" stroke="#ddd" stroke-width="2"/>
+        
+        <!-- 中心圓 -->
+        <circle cx="0" cy="0" r="60" fill="#3498db" opacity="0.1"/>
+        <text x="0" y="0" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">
+            <tspan x="0" dy="-10">自學</tspan>
+            <tspan x="0" dy="25">遊戲化</tspan>
+        </text>
+        
+        <!-- Stage 1: 史詩意義 -->
+        <g transform="rotate(-90)">
+            <g transform="translate(0,-140)">
+                <circle cx="0" cy="0" r="40" fill="#e74c3c" opacity="0.2"/>
+                <text transform="rotate(90)" text-anchor="middle" font-size="14" fill="#333">
+                    <tspan x="0" dy="-5">史詩意義</tspan>
+                    <tspan x="0" dy="20" font-size="12">設定遠大目標</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- Stage 2: 遊戲玩法 -->
+        <g transform="rotate(-45)">
+            <g transform="translate(0,-140)">
+                <circle cx="0" cy="0" r="40" fill="#f1c40f" opacity="0.2"/>
+                <text transform="rotate(45)" text-anchor="middle" font-size="14" fill="#333">
+                    <tspan x="0" dy="-5">遊戲玩法</tspan>
+                    <tspan x="0" dy="20" font-size="12">拆解小目標</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- Stage 3: 第一勝利 -->
+        <g transform="rotate(0)">
+            <g transform="translate(0,-140)">
+                <circle cx="0" cy="0" r="40" fill="#2ecc71" opacity="0.2"/>
+                <text transform="rotate(0)" text-anchor="middle" font-size="14" fill="#333">
+                    <tspan x="0" dy="-5">第一勝利</tspan>
+                    <tspan x="0" dy="20" font-size="12">獲得成就感</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- Stage 4: 技能進步 -->
+        <g transform="rotate(45)">
+            <g transform="translate(0,-140)">
+                <circle cx="0" cy="0" r="40" fill="#3498db" opacity="0.2"/>
+                <text transform="rotate(-45)" text-anchor="middle" font-size="14" fill="#333">
+                    <tspan x="0" dy="-5">技能進步</tspan>
+                    <tspan x="0" dy="20" font-size="12">持續升級</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- Stage 5: 角色養成 -->
+        <g transform="rotate(90)">
+            <g transform="translate(0,-140)">
+                <circle cx="0" cy="0" r="40" fill="#9b59b6" opacity="0.2"/>
+                <text transform="rotate(-90)" text-anchor="middle" font-size="14" fill="#333">
+                    <tspan x="0" dy="-5">角色養成</tspan>
+                    <tspan x="0" dy="20" font-size="12">建立特色</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- Stage 6: 獨特獎章 -->
+        <g transform="rotate(135)">
+            <g transform="translate(0,-140)">
+                <circle cx="0" cy="0" r="40" fill="#e67e22" opacity="0.2"/>
+                <text transform="rotate(-135)" text-anchor="middle" font-size="14" fill="#333">
+                    <tspan x="0" dy="-5">獨特獎章</tspan>
+                    <tspan x="0" dy="20" font-size="12">參與競賽</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- Stage 7: 驚喜關卡 -->
+        <g transform="rotate(180)">
+            <g transform="translate(0,-140)">
+                <circle cx="0" cy="0" r="40" fill="#1abc9c" opacity="0.2"/>
+                <text transform="rotate(-180)" text-anchor="middle" font-size="14" fill="#333">
+                    <tspan x="0" dy="-5">驚喜關卡</tspan>
+                    <tspan x="0" dy="20" font-size="12">探索未知</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- Stage 8: 社交分享 -->
+        <g transform="rotate(225)">
+            <g transform="translate(0,-140)">
+                <circle cx="0" cy="0" r="40" fill="#34495e" opacity="0.2"/>
+                <text transform="rotate(-225)" text-anchor="middle" font-size="14" fill="#333">
+                    <tspan x="0" dy="-5">社交分享</tspan>
+                    <tspan x="0" dy="20" font-size="12">傳播影響</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">八大階段循環提升，建立持續學習動力</tspan>
+            <tspan x="0" dy="25">從目標設定到社群分享，形成完整的自學遊戲化系統</tspan>
+        </text>
+    </g>
+</svg> 

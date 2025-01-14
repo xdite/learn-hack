@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">動物森友會的限制機制設計</text>
+    
+    <!-- 中央時鐘圖示 -->
+    <g transform="translate(400,180)">
+        <!-- 時鐘外框 -->
+        <circle cx="0" cy="0" r="80" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+        
+        <!-- 時間標記 -->
+        <g transform="rotate(-150)">
+            <line x1="0" y1="-60" x2="0" y2="-75" stroke="#333" stroke-width="2"/>
+            <text x="0" y="-85" text-anchor="middle" font-size="14" fill="#333" transform="rotate(150)">5:00</text>
+        </g>
+        
+        <g transform="rotate(-90)">
+            <line x1="0" y1="-60" x2="0" y2="-75" stroke="#333" stroke-width="2"/>
+            <text x="0" y="-85" text-anchor="middle" font-size="14" fill="#333" transform="rotate(90)">9:00</text>
+        </g>
+        
+        <g transform="rotate(60)">
+            <line x1="0" y1="-60" x2="0" y2="-75" stroke="#333" stroke-width="2"/>
+            <text x="0" y="-85" text-anchor="middle" font-size="14" fill="#333" transform="rotate(-60)">22:00</text>
+        </g>
+        
+        <!-- 時針 -->
+        <line x1="0" y1="0" x2="0" y2="-40" stroke="#333" stroke-width="2"/>
+        <!-- 分針 -->
+        <line x1="0" y1="0" x2="30" y2="0" stroke="#333" stroke-width="2"/>
+        <!-- 中心點 -->
+        <circle cx="0" cy="0" r="3" fill="#333"/>
+    </g>
+    
+    <!-- 三大限制機制 -->
+    <g transform="translate(400,350)">
+        <rect x="-350" y="-80" width="700" height="160" rx="10" fill="#f8f9fa"/>
+        
+        <!-- 里程機制 -->
+        <g transform="translate(-230,0)">
+            <circle cx="0" cy="-40" r="25" fill="#e74c3c" opacity="0.2"/>
+            <text x="0" y="-40" text-anchor="middle" font-size="14" fill="#333">里程</text>
+            <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">
+                <tspan x="0" dy="0">• 無法修改</tspan>
+                <tspan x="0" dy="20">• 限定商品</tspan>
+                <tspan x="0" dy="20">• 必做任務</tspan>
+            </text>
+        </g>
+        
+        <!-- 時間機制 -->
+        <g transform="translate(0,0)">
+            <circle cx="0" cy="-40" r="25" fill="#3498db" opacity="0.2"/>
+            <text x="0" y="-40" text-anchor="middle" font-size="14" fill="#333">時間</text>
+            <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">
+                <tspan x="0" dy="0">• 商店營業</tspan>
+                <tspan x="0" dy="20">• 故事進度</tspan>
+                <tspan x="0" dy="20">• 建設等待</tspan>
+            </text>
+        </g>
+        
+        <!-- 價格機制 -->
+        <g transform="translate(230,0)">
+            <circle cx="0" cy="-40" r="25" fill="#2ecc71" opacity="0.2"/>
+            <text x="0" y="-40" text-anchor="middle" font-size="14" fill="#333">價格</text>
+            <text x="0" y="0" text-anchor="middle" font-size="12" fill="#666">
+                <tspan x="0" dy="0">• 非營業八折</tspan>
+                <tspan x="0" dy="20">• 延遲付款</tspan>
+                <tspan x="0" dy="20">• 週轉限制</tspan>
+            </text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">巧妙的限制機制防止玩家過度沉迷</tspan>
+            <tspan x="0" dy="25">同時也建立健康的遊戲作息與習慣</tspan>
+        </text>
+    </g>
+</svg> 

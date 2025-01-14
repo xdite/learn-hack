@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">動物森友會的激勵機制設計</text>
+    
+    <!-- 四大激勵機制 -->
+    <g transform="translate(400,250)">
+        <!-- 背景圓形 -->
+        <circle cx="0" cy="0" r="180" fill="#f8f9fa"/>
+        
+        <!-- 中心圓形 -->
+        <circle cx="0" cy="0" r="50" fill="#3498db" opacity="0.1"/>
+        <text x="0" y="0" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">
+            <tspan x="0" dy="-10">持續性</tspan>
+            <tspan x="0" dy="25">探索動力</tspan>
+        </text>
+        
+        <!-- 四個機制區塊 -->
+        <g transform="rotate(45)">
+            <!-- 點數系統 -->
+            <g transform="translate(0,-120)">
+                <circle cx="0" cy="0" r="40" fill="#e74c3c" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" font-size="14" fill="#333" transform="rotate(-45)">
+                    <tspan x="0" dy="-5">點數系統</tspan>
+                </text>
+                <g transform="translate(60,0) rotate(-45)">
+                    <text x="0" y="0" font-size="12" fill="#666">
+                        <tspan x="0" dy="0">• 任務點數</tspan>
+                        <tspan x="0" dy="20">• 成就卡片</tspan>
+                        <tspan x="0" dy="20">• 連續獎勵</tspan>
+                    </text>
+                </g>
+            </g>
+            
+            <!-- 收集系統 -->
+            <g transform="translate(120,0)">
+                <circle cx="0" cy="0" r="40" fill="#2ecc71" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" font-size="14" fill="#333" transform="rotate(-45)">
+                    <tspan x="0" dy="-5">收集系統</tspan>
+                </text>
+                <g transform="translate(60,0) rotate(-45)">
+                    <text x="0" y="0" font-size="12" fill="#666">
+                        <tspan x="0" dy="0">• 博物館藏</tspan>
+                        <tspan x="0" dy="20">• 傢具套組</tspan>
+                        <tspan x="0" dy="20">• 稀有物品</tspan>
+                    </text>
+                </g>
+            </g>
+            
+            <!-- 特殊活動 -->
+            <g transform="translate(0,120)">
+                <circle cx="0" cy="0" r="40" fill="#f1c40f" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" font-size="14" fill="#333" transform="rotate(-45)">
+                    <tspan x="0" dy="-5">特殊活動</tspan>
+                </text>
+                <g transform="translate(60,0) rotate(-45)">
+                    <text x="0" y="0" font-size="12" fill="#666">
+                        <tspan x="0" dy="0">• 節日慶典</tspan>
+                        <tspan x="0" dy="20">• 限時競賽</tspan>
+                        <tspan x="0" dy="20">• 特別獎品</tspan>
+                    </text>
+                </g>
+            </g>
+            
+            <!-- 創造系統 -->
+            <g transform="translate(-120,0)">
+                <circle cx="0" cy="0" r="40" fill="#9b59b6" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" font-size="14" fill="#333" transform="rotate(-45)">
+                    <tspan x="0" dy="-5">創造系統</tspan>
+                </text>
+                <g transform="translate(60,0) rotate(-45)">
+                    <text x="0" y="0" font-size="12" fill="#666">
+                        <tspan x="0" dy="0">• 島嶼設計</tspan>
+                        <tspan x="0" dy="20">• 房屋裝潢</tspan>
+                        <tspan x="0" dy="20">• 社交展示</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,450)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">多層次的激勵機制持續引導玩家探索</tspan>
+            <tspan x="0" dy="25">結合即時獎勵與長期目標，創造持久的遊戲動力</tspan>
+        </text>
+    </g>
+</svg> 

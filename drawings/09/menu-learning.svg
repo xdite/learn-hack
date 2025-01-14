@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">菜單學習法</text>
+    
+    <!-- 兩個對比區域 -->
+    <g transform="translate(400,300)">
+        <!-- 左側：錯誤示範 -->
+        <g transform="translate(-200,0)">
+            <rect x="-150" y="-200" width="300" height="400" rx="10" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="-170" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">困難菜色</text>
+            
+            <!-- 困難菜圖示 -->
+            <g transform="translate(0,-120)">
+                <circle cx="0" cy="0" r="40" fill="#e74c3c" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-size="40">🏰</text>
+                <text x="0" y="60" text-anchor="middle" font-size="16" fill="#666">寶塔肉</text>
+            </g>
+            
+            <!-- 困難要求列表 -->
+            <g transform="translate(-120,0)">
+                <text font-size="14" fill="#666">
+                    <tspan x="0" dy="0">• 需要專業廚具</tspan>
+                    <tspan x="0" dy="25">• 需要特殊器皿</tspan>
+                    <tspan x="0" dy="25">• 需要多年刀工</tspan>
+                    <tspan x="0" dy="25">• 需要大量食材</tspan>
+                    <tspan x="0" dy="25">• 步驟複雜</tspan>
+                </text>
+            </g>
+            
+            <!-- 底部警告 -->
+            <text x="0" y="160" text-anchor="middle" font-size="14" fill="#e74c3c">容易挫折放棄</text>
+        </g>
+        
+        <!-- 右側：正確示範 -->
+        <g transform="translate(200,0)">
+            <rect x="-150" y="-200" width="300" height="400" rx="10" fill="#2ecc71" opacity="0.1"/>
+            <text x="0" y="-170" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">家常菜練功</text>
+            
+            <!-- 簡單菜圖示 -->
+            <g transform="translate(0,-120)">
+                <circle cx="0" cy="0" r="40" fill="#2ecc71" opacity="0.2"/>
+                <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-size="40">🍳</text>
+                <text x="0" y="60" text-anchor="middle" font-size="16" fill="#666">家常小菜</text>
+            </g>
+            
+            <!-- 學習步驟列表 -->
+            <g transform="translate(-120,0)">
+                <text font-size="14" fill="#666">
+                    <tspan x="0" dy="0">• 先模仿能吃就好</tspan>
+                    <tspan x="0" dy="25">• 漸漸調整口味</tspan>
+                    <tspan x="0" dy="25">• 掌握基本技巧</tspan>
+                    <tspan x="0" dy="25">• 建立基礎配方</tspan>
+                    <tspan x="0" dy="25">• 逐步提升效率</tspan>
+                </text>
+            </g>
+            
+            <!-- 底部鼓勵 -->
+            <text x="0" y="160" text-anchor="middle" font-size="14" fill="#2ecc71">容易獲得成就感</text>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <g transform="translate(400,550)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">從最簡單可行的開始，循序漸進</tspan>
+            <tspan x="0" dy="25">透過實作累積經驗，逐步提升技能</tspan>
+        </text>
+    </g>
+</svg> 

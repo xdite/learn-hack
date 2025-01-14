@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">自然學習 vs 刻意學習的體驗</text>
+    
+    <!-- 左側：自然學習 -->
+    <g transform="translate(50,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#27ae60">自然學習體驗</text>
+        
+        <!-- 快樂學習場景 -->
+        <g transform="translate(50,50)">
+            <!-- 背景框 -->
+            <rect x="0" y="0" width="200" height="200" rx="10" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+            
+            <!-- 開心表情 -->
+            <circle cx="100" cy="60" r="30" fill="#27ae60" opacity="0.2"/>
+            <path d="M85,55 A5,5 0 0,1 95,55" fill="none" stroke="#27ae60" stroke-width="2"/>
+            <path d="M105,55 A5,5 0 0,1 115,55" fill="none" stroke="#27ae60" stroke-width="2"/>
+            <path d="M85,70 A15,15 0 0,0 115,70" fill="none" stroke="#27ae60" stroke-width="2"/>
+            
+            <!-- 進步曲線 -->
+            <path d="M20,150 Q60,140 100,120 T180,100" 
+                  fill="none" stroke="#27ae60" stroke-width="2"/>
+            <text x="180" y="90" font-size="12" fill="#27ae60">輕鬆進步</text>
+        </g>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(30,280)">
+            <circle cx="0" cy="0" r="4" fill="#27ae60"/>
+            <text x="15" y="5" font-size="14" fill="#333333">從生活中自然獲得</text>
+            
+            <circle cx="0" cy="30" r="4" fill="#27ae60"/>
+            <text x="15" y="35" font-size="14" fill="#333333">即時反饋與調整</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#27ae60"/>
+            <text x="15" y="65" font-size="14" fill="#333333">快樂的探索過程</text>
+            
+            <circle cx="0" cy="90" r="4" fill="#27ae60"/>
+            <text x="15" y="95" font-size="14" fill="#333333">持久的記憶效果</text>
+        </g>
+    </g>
+    
+    <!-- 右側：刻意學習 -->
+    <g transform="translate(450,80)">
+        <!-- 標題 -->
+        <text x="150" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#e74c3c">刻意學習體驗</text>
+        
+        <!-- 痛苦學習場景 -->
+        <g transform="translate(50,50)">
+            <!-- 背景框 -->
+            <rect x="0" y="0" width="200" height="200" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+            
+            <!-- 痛苦表情 -->
+            <circle cx="100" cy="60" r="30" fill="#e74c3c" opacity="0.2"/>
+            <path d="M85,55 A5,5 0 0,0 95,55" fill="none" stroke="#e74c3c" stroke-width="2"/>
+            <path d="M105,55 A5,5 0 0,0 115,55" fill="none" stroke="#e74c3c" stroke-width="2"/>
+            <path d="M85,75 A15,15 0 0,1 115,75" fill="none" stroke="#e74c3c" stroke-width="2"/>
+            
+            <!-- 書山 -->
+            <path d="M60,150 L100,100 L140,150" fill="none" stroke="#e74c3c" stroke-width="2"/>
+            <path d="M70,150 L100,110 L130,150" fill="none" stroke="#e74c3c" stroke-width="2"/>
+            <path d="M80,150 L100,120 L120,150" fill="none" stroke="#e74c3c" stroke-width="2"/>
+            <text x="100" y="170" text-anchor="middle" font-size="12" fill="#e74c3c">書山壓力</text>
+        </g>
+        
+        <!-- 特點列表 -->
+        <g transform="translate(30,280)">
+            <circle cx="0" cy="0" r="4" fill="#e74c3c"/>
+            <text x="15" y="5" font-size="14" fill="#333333">被動強制記憶</text>
+            
+            <circle cx="0" cy="30" r="4" fill="#e74c3c"/>
+            <text x="15" y="35" font-size="14" fill="#333333">延遲的成效回饋</text>
+            
+            <circle cx="0" cy="60" r="4" fill="#e74c3c"/>
+            <text x="15" y="65" font-size="14" fill="#333333">痛苦的學習過程</text>
+            
+            <circle cx="0" cy="90" r="4" fill="#e74c3c"/>
+            <text x="15" y="95" font-size="14" fill="#333333">容易遺忘</text>
+        </g>
+    </g>
+    
+    <!-- 分隔線 -->
+    <line x1="400" y1="60" x2="400" y2="450" stroke="#cccccc" stroke-width="1" stroke-dasharray="5,5"/>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666666">同樣是學習，卻帶來截然不同的體驗</text>
+</svg> 

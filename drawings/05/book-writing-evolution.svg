@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">寫書速度的演進</text>
+    
+    <!-- 時間軸 -->
+    <g transform="translate(100,250)">
+        <!-- 主軸線 -->
+        <line x1="0" y1="0" x2="600" y2="0" stroke="#333" stroke-width="2"/>
+        
+        <!-- 第一本書：半年 -->
+        <g transform="translate(0,0)">
+            <line x1="0" y1="-20" x2="0" y2="20" stroke="#333" stroke-width="2"/>
+            <circle cx="0" cy="-100" r="40" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+            <text x="0" y="-105" text-anchor="middle" font-size="14" fill="#333">第一本</text>
+            <text x="0" y="-90" text-anchor="middle" font-size="14" fill="#666">半年</text>
+            <text x="0" y="-75" text-anchor="middle" font-size="12" fill="#666">投影片擴寫</text>
+        </g>
+        
+        <!-- 第二本書：一個月 -->
+        <g transform="translate(200,0)">
+            <line x1="0" y1="-20" x2="0" y2="20" stroke="#333" stroke-width="2"/>
+            <circle cx="0" cy="-100" r="40" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+            <text x="0" y="-105" text-anchor="middle" font-size="14" fill="#333">第二本</text>
+            <text x="0" y="-90" text-anchor="middle" font-size="14" fill="#666">一個月</text>
+            <text x="0" y="-75" text-anchor="middle" font-size="12" fill="#666">倒著寫</text>
+        </g>
+        
+        <!-- 第三本書：7天 -->
+        <g transform="translate(400,0)">
+            <line x1="0" y1="-20" x2="0" y2="20" stroke="#333" stroke-width="2"/>
+            <circle cx="0" cy="-100" r="40" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+            <text x="0" y="-105" text-anchor="middle" font-size="14" fill="#333">第三本</text>
+            <text x="0" y="-90" text-anchor="middle" font-size="14" fill="#666">7天</text>
+            <text x="0" y="-75" text-anchor="middle" font-size="12" fill="#666">講稿轉寫</text>
+        </g>
+        
+        <!-- 第四本書：1天 -->
+        <g transform="translate(600,0)">
+            <line x1="0" y1="-20" x2="0" y2="20" stroke="#333" stroke-width="2"/>
+            <circle cx="0" cy="-100" r="40" fill="#f1c40f" opacity="0.1" stroke="#f1c40f" stroke-width="2"/>
+            <text x="0" y="-105" text-anchor="middle" font-size="14" fill="#333">第四本</text>
+            <text x="0" y="-90" text-anchor="middle" font-size="14" fill="#666">1天</text>
+            <text x="0" y="-75" text-anchor="middle" font-size="12" fill="#666">極速寫書法</text>
+        </g>
+        
+        <!-- 改進方法說明 -->
+        <g transform="translate(100,80)">
+            <text font-size="14" fill="#333">
+                <tspan x="0" dy="0">改進方法：</tspan>
+                <tspan x="0" dy="25">1. 定義目標讀者</tspan>
+                <tspan x="0" dy="25">2. 建立骨幹架構</tspan>
+                <tspan x="0" dy="25">3. 口述先行</tspan>
+                <tspan x="0" dy="25">4. 模組化寫作</tspan>
+            </text>
+        </g>
+        
+        <!-- 加速箭頭 -->
+        <g>
+            <path d="M50,-20 L150,-20 M130,-30 L150,-20 L130,-10" stroke="#666" stroke-width="2"/>
+            <path d="M250,-20 L350,-20 M330,-30 L350,-20 L330,-10" stroke="#666" stroke-width="2"/>
+            <path d="M450,-20 L550,-20 M530,-30 L550,-20 L530,-10" stroke="#666" stroke-width="2"/>
+        </g>
+    </g>
+    
+    <!-- 底部說明 -->
+    <text x="400" y="470" text-anchor="middle" font-size="16" fill="#666">
+        通過不斷優化流程，將寫書時間從半年壓縮到1天
+    </text>
+</svg> 

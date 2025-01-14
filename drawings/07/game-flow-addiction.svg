@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- 標題 -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333333">遊戲設計中的心流與上癮機制</text>
+    
+    <!-- 中央遊戲圖示 -->
+    <g transform="translate(400,200)">
+        <!-- 遊戲機外框 -->
+        <rect x="-50" y="-30" width="100" height="60" rx="10" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+        <text x="0" y="10" text-anchor="middle" font-size="16" fill="#333">遊戲設計</text>
+    </g>
+    
+    <!-- 四個關鍵要素 -->
+    <g transform="translate(400,250)">
+        <!-- 習慣 -->
+        <g transform="translate(-300,-50)">
+            <circle cx="0" cy="0" r="60" fill="#f1c40f" opacity="0.1"/>
+            <text x="0" y="-10" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">習慣</text>
+            <g transform="translate(-40,10)">
+                <text font-size="12" fill="#666">
+                    <tspan x="0" dy="0">• 簡單動作</tspan>
+                    <tspan x="0" dy="20">• 重複行為</tspan>
+                    <tspan x="0" dy="20">• 即時反饋</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- 心流 -->
+        <g transform="translate(-100,-50)">
+            <circle cx="0" cy="0" r="60" fill="#2ecc71" opacity="0.1"/>
+            <text x="0" y="-10" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">心流</text>
+            <g transform="translate(-40,10)">
+                <text font-size="12" fill="#666">
+                    <tspan x="0" dy="0">• 明確目標</tspan>
+                    <tspan x="0" dy="20">• 難度匹配</tspan>
+                    <tspan x="0" dy="20">• 全神貫注</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- 成癮 -->
+        <g transform="translate(100,-50)">
+            <circle cx="0" cy="0" r="60" fill="#e74c3c" opacity="0.1"/>
+            <text x="0" y="-10" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">成癮</text>
+            <g transform="translate(-40,10)">
+                <text font-size="12" fill="#666">
+                    <tspan x="0" dy="0">• 變動獎勵</tspan>
+                    <tspan x="0" dy="20">• 持續渴求</tspan>
+                    <tspan x="0" dy="20">• 無法停止</tspan>
+                </text>
+            </g>
+        </g>
+        
+        <!-- 遊戲化 -->
+        <g transform="translate(300,-50)">
+            <circle cx="0" cy="0" r="60" fill="#9b59b6" opacity="0.1"/>
+            <text x="0" y="-10" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">遊戲化</text>
+            <g transform="translate(-40,10)">
+                <text font-size="12" fill="#666">
+                    <tspan x="0" dy="0">• 積分系統</tspan>
+                    <tspan x="0" dy="20">• 成就解鎖</tspan>
+                    <tspan x="0" dy="20">• 社交競爭</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    
+    <!-- 應用到學習的箭頭 -->
+    <g transform="translate(400,350)">
+        <path d="M0,-30 L0,30" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    </g>
+    
+    <!-- 箭頭標記定義 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    
+    <!-- 底部學習應用框 -->
+    <g transform="translate(400,420)">
+        <rect x="-350" y="-30" width="700" height="60" rx="10" fill="#f8f9fa"/>
+        <text x="0" y="0" text-anchor="middle" font-size="14" fill="#666">
+            <tspan x="0" dy="-10">將遊戲設計中的心流與上癮機制</tspan>
+            <tspan x="0" dy="25">轉化為有效的學習系統設計原則</tspan>
+        </text>
+    </g>
+</svg> 
